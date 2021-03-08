@@ -10,45 +10,47 @@ metadata:
     policy.open-cluster-management.io/standards: NIST SP 800-53
     policy.open-cluster-management.io/categories: CM Configuration Management
     policy.open-cluster-management.io/controls: CM-5 Access Restrictions for Change
+    integrityshield.io/message: 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
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSEtCQUFCQ2dBMEZpRUVDOFZXV2MvQlNhOXE3cENPcCtvcnBLeFFhdndGQW1CRjJ5UVdISE5wWjI1bGNrQmwKYm5SbGNuQnlhWE5sTG1OdmJRQUtDUkNuNml1a3JGQnEvQzRYQy85bGtRd3pCRUI2WjJhaUN4VkZoMWRnZXE2cQpHajJYeS96Rm1NTXBkVmlxYk1teTVybmltTWZqbVlDdGVmbmtYeXMvbmZkTjZCQWN0ZXlnME9LdkJjaWJPc3ljCmJrSGxuNmZBYWkyYVVWVFk0N3FkNllqTmNqZnUrQjRmQjBvMFlZLzdqRUxIUzk0UG9xMC9XL0RoeXFiRzJud0kKazZObGxsOEZjd3pKS1EyS0xpYWFSZWhMK1FVMUduVXluTlNZNk9LVHR5NVc4WG5yV3RPV05abUlTb0M3S05LSgpPZmRXQTZOK2FPWWc4d08yc3lXbzhJTTNLSkJSeTJFZ3hVaHBMVDVIc1pnN25ZdGZmMWV1a1h6SWNwSEhyU0pMCmRldFhiMzZnY3Brb2pqU3loVzdkM0pQUTN3RCtPOUdoRG1ZRVRBY3M3N0hJNjE5NjdGM2RHU2F5U0JvUWk3K20KcXR2V2Z3TzNNTkpUd0ZXcU9HKzQxV3pEWGVIQmdJNnZJSnliaXZRTTNGZXBpREJMajdPaHB3ajIya3d1OFQ4RApiNU1JZ0k5SmJYZjNMc1dBNmdWS3pWeDVFU2c5czZyL1R3NnlzRnpJZmZFeFVpcDBhRW9od3BwZDhtUVlINk1sCi9CKzUvYUdES1FCUVZHcmFTTDRaNExkNmgzcml3U2FUbFU5MnlYcz0KPXY1cFQKLS0tLS1FTkQgUEdQIFNJR05BVFVSRS0tLS0tCg==
 spec:
-  remediationAction: inform
+  remediationAction: enforce
   disabled: false
   policy-templates:
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: ConfigurationPolicy
-      metadata:
-        name: policy-integrity-shield-namespace
-      spec:
-        remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
-        severity: High
-        object-templates:
-        - complianceType: musthave
-          objectDefinition:
-            kind: Namespace
-            apiVersion: v1
-            metadata:
-              name: integrity-shield-operator-system
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: ConfigurationPolicy
-      metadata:
-        name: policy-integrity-shield-og
-      spec:
-        remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
-        severity: high
-        object-templates:
-        - complianceType: musthave
-          objectDefinition:
-            apiVersion: operators.coreos.com/v1
-            kind: OperatorGroup
-            metadata:
-              name: integrity-operator-group
-              namespace: integrity-shield-operator-system
-            spec:
-              targetNamespaces:
-              - integrity-shield-operator-system
-   - objectDefinition:
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: ConfigurationPolicy
+        metadata:
+          name: policy-integrity-shield-namespace
+        spec:
+          remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
+          severity: High
+          object-templates:
+            - complianceType: musthave
+              objectDefinition:
+                kind: Namespace
+                apiVersion: v1
+                metadata:
+                  name: integrity-shield-operator-system
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: ConfigurationPolicy
+        metadata:
+          name: policy-integrity-shield-og
+        spec:
+          remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
+          severity: high
+          object-templates:
+            - complianceType: musthave
+              objectDefinition:
+                apiVersion: operators.coreos.com/v1
+                kind: OperatorGroup
+                metadata:
+                  name: integrity-operator-group
+                  namespace: integrity-shield-operator-system
+                spec:
+                  targetNamespaces:
+                    - integrity-shield-operator-system
+    - objectDefinition:
         apiVersion: policy.open-cluster-management.io/v1
         kind: ConfigurationPolicy
         metadata:
@@ -71,120 +73,123 @@ spec:
                   sourceType: grpc
                   updateStrategy:
                     registryPoll:
-                      interval: 15m              
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: ConfigurationPolicy
-      metadata:
-        name: policy-integrity-shield-sub
-      spec:
-        remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
-        severity: high
-        object-templates:
-        - complianceType: musthave
-          objectDefinition:
-            apiVersion: operators.coreos.com/v1alpha1
-            kind: Subscription
-            metadata:
-              name: integrity-shield-operator
-              namespace: integrity-shield-operator-system
-            spec:
-              channel: alpha
-              installPlanApproval: Automatic
-              name: integrity-shield-operator
-              source: integrity-shield-operator-catalog
-              sourceNamespace: openshift-marketplace
-              startingCSV: integrity-shield-operator.v0.1.5
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: ConfigurationPolicy
-      metadata:
-        name: policy-integrity-shield-cr
-      spec:
-        remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
-        severity: high
-        object-templates:
-        - complianceType: musthave
-          objectDefinition:
-            apiVersion: apis.integrityshield.io/v1alpha1
-            kind: IntegrityShield
-            metadata:
-              name: integrity-shield-server
-              namespace: integrity-shield-operator-system
-              finalizers:
-              - cleanup.finalizers.integrityshield.io
-            spec:
-              logger:
-                image: quay.io/open-cluster-management/integrity-shield-logging:0.1.4
-              server:
-                image: quay.io/open-cluster-management/integrity-shield-server:0.1.4
-              affinity: {}
-              shieldConfig:
-                verifyType: pgp # x509
-                iShieldAdminUserName: "system:serviceaccount:open-cluster-management-agent-addon:klusterlet-addon-policyctrl"
-                inScopeNamespaceSelector:
-                  include:
-                  - "*"
-                  exclude:
-                  - "kube-*"
-                  - "openshift-*"
-              signerConfig:
-                policies:
-                - namespaces:
-                  - "*"
-                  signers:
-                  - "SampleSigner"
-                - scope: "Cluster"
-                  signers:
-                  - "SampleSigner"
-                signers:
-                - name: "SampleSigner"
-                  keyConfig: sample-signer-keyconfig
-                  subjects:
-                  - email: "*"
-              keyConfig:
-              - name: sample-signer-keyconfig
-                secretName: keyring-secret
-              resourceSigningProfiles:
-              - name: policy-rsp
-                protectRules:
-                - match:
-                  - apiGroup: policy.open-cluster-management.io
-                ignoreRules:
-                - match:
-                  - username: "system:serviceaccount:open-cluster-management-agent:*"
-                  - username: "system:serviceaccount:open-cluster-management-agent-addon:*"
-                forceCheckRules:
-                - match:
-                  - apiGroup: policy.open-cluster-management.io
-                    kind: Policy
-                kustomizePatterns:
-                - match:
-                  - apiGroup: policy.open-cluster-management.io
-                    kind: Policy
-                  namePrefix: "*."
-                unprotectAttrs:
-                - match:
-                  - apiGroup: policy.open-cluster-management.io
-                  attrs:
-                  - "metadata.annotations.\"apps.open-cluster-management.io/hosting-deployable\""
-                  - "metadata.annotations.\"apps.open-cluster-management.io/hosting-subscription\""
-                  - "metadata.annotations.\"apps.open-cluster-management.io/sync-source\""
-                  - "metadata.annotations.\"apps.open-cluster-management.io/reconcile-option\""
-                  - "metadata.labels.\"policy.open-cluster-management.io/cluster-name\""
-                  - "metadata.labels.\"policy.open-cluster-management.io/cluster-namespace\""
-                  - "metadata.labels.\"policy.open-cluster-management.io/root-policy\""
-                targetNamespaceSelector:
-                  labelSelector:
-                    matchExpressions:
-                    - key: policy.open-cluster-management.io/isClusterNamespace
-                      operator: In
-                      values: ["true"]
+                      interval: 15m
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: ConfigurationPolicy
+        metadata:
+          name: policy-integrity-shield-sub
+        spec:
+          remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
+          severity: high
+          object-templates:
+            - complianceType: musthave
+              objectDefinition:
+                apiVersion: operators.coreos.com/v1alpha1
+                kind: Subscription
+                metadata:
+                  name: integrity-shield-operator
+                  namespace: integrity-shield-operator-system
+                spec:
+                  channel: alpha
+                  installPlanApproval: Automatic
+                  name: integrity-shield-operator
+                  source: integrity-shield-operator-catalog
+                  sourceNamespace: openshift-marketplace
+                  startingCSV: integrity-shield-operator.v0.1.5
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: ConfigurationPolicy
+        metadata:
+          name: policy-integrity-shield-cr
+        spec:
+          remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
+          severity: high
+          object-templates:
+            - complianceType: musthave
+              objectDefinition:
+                apiVersion: apis.integrityshield.io/v1alpha1
+                kind: IntegrityShield
+                metadata:
+                  name: integrity-shield-server
+                  namespace: integrity-shield-operator-system
+                  finalizers:
+                    - cleanup.finalizers.integrityshield.io
+                spec:
+                  logger:
+                    image: quay.io/open-cluster-management/integrity-shield-logging:0.1.4
+                  server:
+                    image: quay.io/open-cluster-management/integrity-shield-server:0.1.4
+                  affinity: {}
+                  shieldConfig:
+                    verifyType: pgp # x509
+                    iShieldAdminUserName: "system:serviceaccount:open-cluster-management-agent-addon:klusterlet-addon-policyctrl"
+                    inScopeNamespaceSelector:
+                      include:
+                        - "*"
+                      exclude:
+                        - "kube-*"
+                        - "openshift-*"
+                  signerConfig:
+                    policies:
+                      - namespaces:
+                          - "*"
+                        signers:
+                          - "SampleSigner"
+                      - scope: "Cluster"
+                        signers:
+                          - "SampleSigner"
+                    signers:
+                      - name: "SampleSigner"
+                        keyConfig: sample-signer-keyconfig
+                        subjects:
+                          - email: "*"
+                  keyConfig:
+                    - name: sample-signer-keyconfig
+                      secretName: keyring-secret
+                  resourceSigningProfiles:
+                    - name: policy-rsp
+                      protectRules:
+                        - match:
+                            - apiGroup: policy.open-cluster-management.io
+                      ignoreRules:
+                        - match:
+                            - username: "system:serviceaccount:open-cluster-management-agent:*"
+                            - username: "system:serviceaccount:open-cluster-management-agent-addon:*"
+                      forceCheckRules:
+                        - match:
+                            - apiGroup: policy.open-cluster-management.io
+                              kind: Policy
+                      kustomizePatterns:
+                        - match:
+                            - apiGroup: policy.open-cluster-management.io
+                              kind: Policy
+                          namePrefix: "*."
+                      unprotectAttrs:
+                        - match:
+                            - apiGroup: policy.open-cluster-management.io
+                          attrs:
+                            - "metadata.annotations.\"apps.open-cluster-management.io/hosting-deployable\""
+                            - "metadata.annotations.\"apps.open-cluster-management.io/hosting-subscription\""
+                            - "metadata.annotations.\"apps.open-cluster-management.io/sync-source\""
+                            - "metadata.annotations.\"apps.open-cluster-management.io/reconcile-option\""
+                            - "metadata.labels.\"policy.open-cluster-management.io/cluster-name\""
+                            - "metadata.labels.\"policy.open-cluster-management.io/cluster-namespace\""
+                            - "metadata.labels.\"policy.open-cluster-management.io/root-policy\""
+                      targetNamespaceSelector:
+                        labelSelector:
+                          matchExpressions:
+                            - key: policy.open-cluster-management.io/isClusterNamespace
+                              operator: In
+                              values: ["true"]
 ---
 apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding
 metadata:
   name: binding-policy-integrity-shield
+  annotations:
+    integrityshield.io/message: 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
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSEtCQUFCQ2dBMEZpRUVDOFZXV2MvQlNhOXE3cENPcCtvcnBLeFFhdndGQW1CRjJ5UVdISE5wWjI1bGNrQmwKYm5SbGNuQnlhWE5sTG1OdmJRQUtDUkNuNml1a3JGQnEvQzRYQy85bGtRd3pCRUI2WjJhaUN4VkZoMWRnZXE2cQpHajJYeS96Rm1NTXBkVmlxYk1teTVybmltTWZqbVlDdGVmbmtYeXMvbmZkTjZCQWN0ZXlnME9LdkJjaWJPc3ljCmJrSGxuNmZBYWkyYVVWVFk0N3FkNllqTmNqZnUrQjRmQjBvMFlZLzdqRUxIUzk0UG9xMC9XL0RoeXFiRzJud0kKazZObGxsOEZjd3pKS1EyS0xpYWFSZWhMK1FVMUduVXluTlNZNk9LVHR5NVc4WG5yV3RPV05abUlTb0M3S05LSgpPZmRXQTZOK2FPWWc4d08yc3lXbzhJTTNLSkJSeTJFZ3hVaHBMVDVIc1pnN25ZdGZmMWV1a1h6SWNwSEhyU0pMCmRldFhiMzZnY3Brb2pqU3loVzdkM0pQUTN3RCtPOUdoRG1ZRVRBY3M3N0hJNjE5NjdGM2RHU2F5U0JvUWk3K20KcXR2V2Z3TzNNTkpUd0ZXcU9HKzQxV3pEWGVIQmdJNnZJSnliaXZRTTNGZXBpREJMajdPaHB3ajIya3d1OFQ4RApiNU1JZ0k5SmJYZjNMc1dBNmdWS3pWeDVFU2c5czZyL1R3NnlzRnpJZmZFeFVpcDBhRW9od3BwZDhtUVlINk1sCi9CKzUvYUdES1FCUVZHcmFTTDRaNExkNmgzcml3U2FUbFU5MnlYcz0KPXY1cFQKLS0tLS1FTkQgUEdQIFNJR05BVFVSRS0tLS0tCg==
 placementRef:
   name: placement-policy-integrity-shield
   kind: PlacementRule
@@ -198,6 +203,9 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
   name: placement-policy-integrity-shield
+  annotations:
+    integrityshield.io/message: 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
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSEtCQUFCQ2dBMEZpRUVDOFZXV2MvQlNhOXE3cENPcCtvcnBLeFFhdndGQW1CRjJ5UVdISE5wWjI1bGNrQmwKYm5SbGNuQnlhWE5sTG1OdmJRQUtDUkNuNml1a3JGQnEvQzRYQy85bGtRd3pCRUI2WjJhaUN4VkZoMWRnZXE2cQpHajJYeS96Rm1NTXBkVmlxYk1teTVybmltTWZqbVlDdGVmbmtYeXMvbmZkTjZCQWN0ZXlnME9LdkJjaWJPc3ljCmJrSGxuNmZBYWkyYVVWVFk0N3FkNllqTmNqZnUrQjRmQjBvMFlZLzdqRUxIUzk0UG9xMC9XL0RoeXFiRzJud0kKazZObGxsOEZjd3pKS1EyS0xpYWFSZWhMK1FVMUduVXluTlNZNk9LVHR5NVc4WG5yV3RPV05abUlTb0M3S05LSgpPZmRXQTZOK2FPWWc4d08yc3lXbzhJTTNLSkJSeTJFZ3hVaHBMVDVIc1pnN25ZdGZmMWV1a1h6SWNwSEhyU0pMCmRldFhiMzZnY3Brb2pqU3loVzdkM0pQUTN3RCtPOUdoRG1ZRVRBY3M3N0hJNjE5NjdGM2RHU2F5U0JvUWk3K20KcXR2V2Z3TzNNTkpUd0ZXcU9HKzQxV3pEWGVIQmdJNnZJSnliaXZRTTNGZXBpREJMajdPaHB3ajIya3d1OFQ4RApiNU1JZ0k5SmJYZjNMc1dBNmdWS3pWeDVFU2c5czZyL1R3NnlzRnpJZmZFeFVpcDBhRW9od3BwZDhtUVlINk1sCi9CKzUvYUdES1FCUVZHcmFTTDRaNExkNmgzcml3U2FUbFU5MnlYcz0KPXY1cFQKLS0tLS1FTkQgUEdQIFNJR05BVFVSRS0tLS0tCg==
 spec:
   clusterConditions:
     - status: "True"
