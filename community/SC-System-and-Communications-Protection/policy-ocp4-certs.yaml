@@ -6,111 +6,119 @@ metadata:
     policy.open-cluster-management.io/standards: NIST SP 800-53
     policy.open-cluster-management.io/categories: SC System and Communications Protection
     policy.open-cluster-management.io/controls: SC-12 Cryptographic Key Establishment and Management
+    integrityshield.io/message: H4sIAAAAAAAAA9VXS2/bMAy++1cIOVdd2rXA4FuXFkMxbCuaYpdhB0WmbS3WA5IczBj230f5kUfTOkqxHuqTY5Efqe+jxJAZ8R2sE1qlxOhK8OZUG1CUV7XzYKlkihUgQflTod+tzpKlUFlK7lrTRIJnGfMsTQhRTMKAQTlYTzU3F7jAlNKeeQzhgh2JiOM8UxmzmUvJ19v5A5nfkQ/TKb18H+nPmYdCWwEIMJ+ReYM2EhPJyExLWSvBu3zIndUeeHiPRdbKW121uPTsnMxsY7wuLDOl4OQzNOQGk19UwpXBpY35ZY2QOAM8kGDxZybaJK7a8CkRKtdW4lomHAIAspyzykEypEVxD6bCnfU0UqIXvzD5a8iFEi1I+z087FhZB8dO3hnKJ/LAEvRKD+vbig9Pp3zAd6XIfSe+2fUbNr7t4wzjMIcK96Dt9iJBMjDTDHY/tlteR3FgV4ID5YziR8sQI8p6xGjAoZXIgTe8gp6oMWSkOoDH2cSkympfojB9jUYbxkBv5OelUIB5GavHUx9cHMPiA3dMFIdmSN4xLquuaMcstcpFEYWJB1xXcNgiEiyc+2p9do4zjgmRKTe+GgMCnmcHlmNghAzCWSiE87YZM1SFBReVmlBOFKUf2+SyXgB1vISsruJI6zz6Quurh0pRdOc4AmBzFESEVXz1SWaX4PG+5mMVKDXe3NioVDFmVFe+3qZtrHsMj8SeIGt5XVvWWVxOp+Wb6RtDXb1i/3gc4YW0nl+U+8uzq43BxZvinTv7ipy3p/WoZth6xN2nL5Jvrc6z+g0Cvwn5ZPGa8vW3X7ebsTazq3P0hX98HfyP00spTY4WsB+DwvUevn7En+ES3x+IFt0K3RuMzOB7D/nW/DR83XcYqmUd9L5u/91g7p+srk2Kb8aN5J24uq3gdn6gzw9s60CbWtzEOMjOHp8HsnqCzXZjT8yWz3Mz1HofYaaR9K2JkxIcyrCHpmTyYGuY9CXhG4Ow3XiWzR65Xq2YqMIgtoHdPTiSeV7e/Dahi2xChWB/ltCkZAUq0/aEDFdVSm7VCVmxqg5j6Y/JN6RkHop78vNv8g8JtheLiA8AAA==
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSEZCQUFCQ2dBdkZpRUVkZENIUWpWblNBUmhaMytYbTBOT3crQXJsb2NGQW1CRjZZd1JIR2RoYW1GdVFHcHcKTG1saWJTNWpiMjBBQ2drUW0wTk93K0FybG9kUExBdi9maERTQmIxdmMvZnVqSHZMY1RUMGpFL3NMSTQzTmt4Zwo3YkU4YzhuNlBveS9IQkJ1U3BOTys1eUM0ajBtbG42Rnk0azkyYWFEckdXOFV3d1l2UG8wbXRIWm5Ob0FFLy84CllLTzExbW9KeUt3QXEzN2E4OHFjdlpKYm9PQnVnWVhwUHBLd0Q5cmZvajIxYURHL1lkUjZBUVhVdGVGcWV1SFEKMnNuTG5xaWhZSGMzcUNSUStFYXFjalhPZXN0MUk1ZFBrTjZGdk5PanorY0JkZThnVVVzZG4ybnVSYWVnOTlILwpWMHNBZlBHcVpLVFFSWW9kY3BFOXVVaFM4dkNtbkZEeGMraGxDdFBia1AyWWhZUUtMTktNZVJkR09wVnFZK1hPCkpncGNZaTVyYUJmRUdRUEIxV1ZSaGI5c0tXdjY0R2xjWUhacHVSeFZyZFBmYkxEZXFqOWxJZyt4Sy96Kzd4c1YKc0VDb29VZ1BOdGthRDBNYzJDUlJHYmdkSGJqT2plN1Noa0lIMjdkaUdSeGdiVk1Hai9FL1ZKTENsVzVibEd6NQpKSVBGWFllT1Jya1RjRDM3c1AyMGxYeHV3OUtsOU1rQWY3dklBWFlyK3RDZUNpRzlORW9WMnlab0R5eEk5NldLCkd3dGFnTjFiS2NPc3dXMm1hdlRQUmxSaXI4Kzc0Uk8yCj0xT1ErCi0tLS0tRU5EIFBHUCBTSUdOQVRVUkUtLS0tLQo=
 spec:
   remediationAction: inform
   disabled: false
   policy-templates:
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: CertificatePolicy
-      metadata:
-        name: openshift-cert-policy
-      spec:
-        namespaceSelector:
-          include:
-          - openshift-service-ca-operator
-          - openshift-service-ca
-          - openshift-operator-lifecycle-manager
-          - openshift-apiserver
-          - openshift-apiserver-operator
-          - openshift-authentication
-          - openshift-authentication-operator
-          - openshift-cluster-machine-approver
-          - openshift-cluster-samples-operator
-          - openshift-cluster-storage-operator
-          - openshift-cluster-version
-          - openshift-config-operator
-          - openshift-console
-          - openshift-console-operator
-          - openshift-controller-manager
-          - openshift-controller-manager-operator
-          - openshift-dns
-          - openshift-dns-operator
-          - openshift-etcd
-          - openshift-etcd-operator
-          - openshift-image-registry
-          - openshift-ingress-operator
-          - openshift-insights
-          - openshift-kube-scheduler-operator
-          - openshift-kube-storage-version-migrator-operator
-          - openshift-machine-api
-          - openshift-machine-config-operator
-          - openshift-marketplace
-          - openshift-monitoring
-          - openshift-multus
-        remediationAction: inform
-        minimumDuration: 500h
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: CertificatePolicy
-      metadata:
-        name: openshift-cert-policy-ingress
-      spec:
-        namespaceSelector:
-          include:
-          - openshift-ingress
-        remediationAction: inform
-        minimumDuration: 24h
-        minimumCADuration: 400h
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: CertificatePolicy
-      metadata:
-        name: openshift-cert-policy-csr
-      spec:
-        namespaceSelector:
-          include:
-          - openshift-kube-apiserver-operator
-          - openshift-kube-controller-manager-operator
-        remediationAction: inform
-        minimumDuration: 400h
-        minimumCADuration: 24h
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: CertificatePolicy
-      metadata:
-        name: openshift-cert-policy-mgr
-      spec:
-        namespaceSelector:
-          include:
-          - openshift-config-managed
-          - openshift-kube-apiserver
-          - openshift-kube-scheduler
-          - openshift-kube-controller-manager
-        remediationAction: inform
-        minimumDuration: 24h
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: CertificatePolicy
+        metadata:
+          name: openshift-cert-policy
+        spec:
+          namespaceSelector:
+            include:
+              - openshift-service-ca-operator
+              - openshift-service-ca
+              - openshift-operator-lifecycle-manager
+              - openshift-apiserver
+              - openshift-apiserver-operator
+              - openshift-authentication
+              - openshift-authentication-operator
+              - openshift-cluster-machine-approver
+              - openshift-cluster-samples-operator
+              - openshift-cluster-storage-operator
+              - openshift-cluster-version
+              - openshift-config-operator
+              - openshift-console
+              - openshift-console-operator
+              - openshift-controller-manager
+              - openshift-controller-manager-operator
+              - openshift-dns
+              - openshift-dns-operator
+              - openshift-etcd
+              - openshift-etcd-operator
+              - openshift-image-registry
+              - openshift-ingress-operator
+              - openshift-insights
+              - openshift-kube-scheduler-operator
+              - openshift-kube-storage-version-migrator-operator
+              - openshift-machine-api
+              - openshift-machine-config-operator
+              - openshift-marketplace
+              - openshift-monitoring
+              - openshift-multus
+          remediationAction: inform
+          minimumDuration: 500h
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: CertificatePolicy
+        metadata:
+          name: openshift-cert-policy-ingress
+        spec:
+          namespaceSelector:
+            include:
+              - openshift-ingress
+          remediationAction: inform
+          minimumDuration: 24h
+          minimumCADuration: 400h
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: CertificatePolicy
+        metadata:
+          name: openshift-cert-policy-csr
+        spec:
+          namespaceSelector:
+            include:
+              - openshift-kube-apiserver-operator
+              - openshift-kube-controller-manager-operator
+          remediationAction: inform
+          minimumDuration: 400h
+          minimumCADuration: 24h
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: CertificatePolicy
+        metadata:
+          name: openshift-cert-policy-mgr
+        spec:
+          namespaceSelector:
+            include:
+              - openshift-config-managed
+              - openshift-kube-apiserver
+              - openshift-kube-scheduler
+              - openshift-kube-controller-manager
+          remediationAction: inform
+          minimumDuration: 24h
 ---
 apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding
 metadata:
   name: binding-policy-cert-ocp4
+  annotations:
+    integrityshield.io/message: H4sIAAAAAAAAA9VXS2/bMAy++1cIOVdd2rXA4FuXFkMxbCuaYpdhB0WmbS3WA5IczBj230f5kUfTOkqxHuqTY5Efqe+jxJAZ8R2sE1qlxOhK8OZUG1CUV7XzYKlkihUgQflTod+tzpKlUFlK7lrTRIJnGfMsTQhRTMKAQTlYTzU3F7jAlNKeeQzhgh2JiOM8UxmzmUvJ19v5A5nfkQ/TKb18H+nPmYdCWwEIMJ+ReYM2EhPJyExLWSvBu3zIndUeeHiPRdbKW121uPTsnMxsY7wuLDOl4OQzNOQGk19UwpXBpY35ZY2QOAM8kGDxZybaJK7a8CkRKtdW4lomHAIAspyzykEypEVxD6bCnfU0UqIXvzD5a8iFEi1I+z087FhZB8dO3hnKJ/LAEvRKD+vbig9Pp3zAd6XIfSe+2fUbNr7t4wzjMIcK96Dt9iJBMjDTDHY/tlteR3FgV4ID5YziR8sQI8p6xGjAoZXIgTe8gp6oMWSkOoDH2cSkympfojB9jUYbxkBv5OelUIB5GavHUx9cHMPiA3dMFIdmSN4xLquuaMcstcpFEYWJB1xXcNgiEiyc+2p9do4zjgmRKTe+GgMCnmcHlmNghAzCWSiE87YZM1SFBReVmlBOFKUf2+SyXgB1vISsruJI6zz6Quurh0pRdOc4AmBzFESEVXz1SWaX4PG+5mMVKDXe3NioVDFmVFe+3qZtrHsMj8SeIGt5XVvWWVxOp+Wb6RtDXb1i/3gc4YW0nl+U+8uzq43BxZvinTv7ipy3p/WoZth6xN2nL5Jvrc6z+g0Cvwn5ZPGa8vW3X7ebsTazq3P0hX98HfyP00spTY4WsB+DwvUevn7En+ES3x+IFt0K3RuMzOB7D/nW/DR83XcYqmUd9L5u/91g7p+srk2Kb8aN5J24uq3gdn6gzw9s60CbWtzEOMjOHp8HsnqCzXZjT8yWz3Mz1HofYaaR9K2JkxIcyrCHpmTyYGuY9CXhG4Ow3XiWzR65Xq2YqMIgtoHdPTiSeV7e/Dahi2xChWB/ltCkZAUq0/aEDFdVSm7VCVmxqg5j6Y/JN6RkHop78vNv8g8JtheLiA8AAA==
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSEZCQUFCQ2dBdkZpRUVkZENIUWpWblNBUmhaMytYbTBOT3crQXJsb2NGQW1CRjZZd1JIR2RoYW1GdVFHcHcKTG1saWJTNWpiMjBBQ2drUW0wTk93K0FybG9kUExBdi9maERTQmIxdmMvZnVqSHZMY1RUMGpFL3NMSTQzTmt4Zwo3YkU4YzhuNlBveS9IQkJ1U3BOTys1eUM0ajBtbG42Rnk0azkyYWFEckdXOFV3d1l2UG8wbXRIWm5Ob0FFLy84CllLTzExbW9KeUt3QXEzN2E4OHFjdlpKYm9PQnVnWVhwUHBLd0Q5cmZvajIxYURHL1lkUjZBUVhVdGVGcWV1SFEKMnNuTG5xaWhZSGMzcUNSUStFYXFjalhPZXN0MUk1ZFBrTjZGdk5PanorY0JkZThnVVVzZG4ybnVSYWVnOTlILwpWMHNBZlBHcVpLVFFSWW9kY3BFOXVVaFM4dkNtbkZEeGMraGxDdFBia1AyWWhZUUtMTktNZVJkR09wVnFZK1hPCkpncGNZaTVyYUJmRUdRUEIxV1ZSaGI5c0tXdjY0R2xjWUhacHVSeFZyZFBmYkxEZXFqOWxJZyt4Sy96Kzd4c1YKc0VDb29VZ1BOdGthRDBNYzJDUlJHYmdkSGJqT2plN1Noa0lIMjdkaUdSeGdiVk1Hai9FL1ZKTENsVzVibEd6NQpKSVBGWFllT1Jya1RjRDM3c1AyMGxYeHV3OUtsOU1rQWY3dklBWFlyK3RDZUNpRzlORW9WMnlab0R5eEk5NldLCkd3dGFnTjFiS2NPc3dXMm1hdlRQUmxSaXI4Kzc0Uk8yCj0xT1ErCi0tLS0tRU5EIFBHUCBTSUdOQVRVUkUtLS0tLQo=
 placementRef:
   name: placement-policy-cert-ocp4
   kind: PlacementRule
   apiGroup: apps.open-cluster-management.io
 subjects:
-- name: policy-cert-ocp4
-  kind: Policy
-  apiGroup: policy.open-cluster-management.io
+  - name: policy-cert-ocp4
+    kind: Policy
+    apiGroup: policy.open-cluster-management.io
 ---
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
   name: placement-policy-cert-ocp4
+  annotations:
+    integrityshield.io/message: H4sIAAAAAAAAA9VXS2/bMAy++1cIOVdd2rXA4FuXFkMxbCuaYpdhB0WmbS3WA5IczBj230f5kUfTOkqxHuqTY5Efqe+jxJAZ8R2sE1qlxOhK8OZUG1CUV7XzYKlkihUgQflTod+tzpKlUFlK7lrTRIJnGfMsTQhRTMKAQTlYTzU3F7jAlNKeeQzhgh2JiOM8UxmzmUvJ19v5A5nfkQ/TKb18H+nPmYdCWwEIMJ+ReYM2EhPJyExLWSvBu3zIndUeeHiPRdbKW121uPTsnMxsY7wuLDOl4OQzNOQGk19UwpXBpY35ZY2QOAM8kGDxZybaJK7a8CkRKtdW4lomHAIAspyzykEypEVxD6bCnfU0UqIXvzD5a8iFEi1I+z087FhZB8dO3hnKJ/LAEvRKD+vbig9Pp3zAd6XIfSe+2fUbNr7t4wzjMIcK96Dt9iJBMjDTDHY/tlteR3FgV4ID5YziR8sQI8p6xGjAoZXIgTe8gp6oMWSkOoDH2cSkympfojB9jUYbxkBv5OelUIB5GavHUx9cHMPiA3dMFIdmSN4xLquuaMcstcpFEYWJB1xXcNgiEiyc+2p9do4zjgmRKTe+GgMCnmcHlmNghAzCWSiE87YZM1SFBReVmlBOFKUf2+SyXgB1vISsruJI6zz6Quurh0pRdOc4AmBzFESEVXz1SWaX4PG+5mMVKDXe3NioVDFmVFe+3qZtrHsMj8SeIGt5XVvWWVxOp+Wb6RtDXb1i/3gc4YW0nl+U+8uzq43BxZvinTv7ipy3p/WoZth6xN2nL5Jvrc6z+g0Cvwn5ZPGa8vW3X7ebsTazq3P0hX98HfyP00spTY4WsB+DwvUevn7En+ES3x+IFt0K3RuMzOB7D/nW/DR83XcYqmUd9L5u/91g7p+srk2Kb8aN5J24uq3gdn6gzw9s60CbWtzEOMjOHp8HsnqCzXZjT8yWz3Mz1HofYaaR9K2JkxIcyrCHpmTyYGuY9CXhG4Ow3XiWzR65Xq2YqMIgtoHdPTiSeV7e/Dahi2xChWB/ltCkZAUq0/aEDFdVSm7VCVmxqg5j6Y/JN6RkHop78vNv8g8JtheLiA8AAA==
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSEZCQUFCQ2dBdkZpRUVkZENIUWpWblNBUmhaMytYbTBOT3crQXJsb2NGQW1CRjZZd1JIR2RoYW1GdVFHcHcKTG1saWJTNWpiMjBBQ2drUW0wTk93K0FybG9kUExBdi9maERTQmIxdmMvZnVqSHZMY1RUMGpFL3NMSTQzTmt4Zwo3YkU4YzhuNlBveS9IQkJ1U3BOTys1eUM0ajBtbG42Rnk0azkyYWFEckdXOFV3d1l2UG8wbXRIWm5Ob0FFLy84CllLTzExbW9KeUt3QXEzN2E4OHFjdlpKYm9PQnVnWVhwUHBLd0Q5cmZvajIxYURHL1lkUjZBUVhVdGVGcWV1SFEKMnNuTG5xaWhZSGMzcUNSUStFYXFjalhPZXN0MUk1ZFBrTjZGdk5PanorY0JkZThnVVVzZG4ybnVSYWVnOTlILwpWMHNBZlBHcVpLVFFSWW9kY3BFOXVVaFM4dkNtbkZEeGMraGxDdFBia1AyWWhZUUtMTktNZVJkR09wVnFZK1hPCkpncGNZaTVyYUJmRUdRUEIxV1ZSaGI5c0tXdjY0R2xjWUhacHVSeFZyZFBmYkxEZXFqOWxJZyt4Sy96Kzd4c1YKc0VDb29VZ1BOdGthRDBNYzJDUlJHYmdkSGJqT2plN1Noa0lIMjdkaUdSeGdiVk1Hai9FL1ZKTENsVzVibEd6NQpKSVBGWFllT1Jya1RjRDM3c1AyMGxYeHV3OUtsOU1rQWY3dklBWFlyK3RDZUNpRzlORW9WMnlab0R5eEk5NldLCkd3dGFnTjFiS2NPc3dXMm1hdlRQUmxSaXI4Kzc0Uk8yCj0xT1ErCi0tLS0tRU5EIFBHUCBTSUdOQVRVUkUtLS0tLQo=
 spec:
   clusterConditions:
-  - status: "True"
-    type: ManagedClusterConditionAvailable
+    - status: "True"
+      type: ManagedClusterConditionAvailable
   clusterSelector:
     matchExpressions:
       - {key: vendor, operator: In, values: ["OpenShift"]}
