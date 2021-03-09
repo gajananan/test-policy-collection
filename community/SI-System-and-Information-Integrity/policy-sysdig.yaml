@@ -22,7 +22,7 @@ spec:
             exclude: ["kube-*"]
             include: ["*"]
           object-templates:
-            - complianceType: musthave
+            - complianceType: mustnothave
               objectDefinition:
                 apiVersion: v1
                 kind: Namespace
@@ -41,7 +41,7 @@ spec:
             exclude: ["kube-*"]
             include: ["sysdig-operator"]
           object-templates:
-            - complianceType: musthave
+            - complianceType: mustnothave
               objectDefinition:
                 apiVersion: operators.coreos.com/v1
                 kind: OperatorGroup
@@ -63,7 +63,7 @@ spec:
             exclude: ["kube-*"]
             include: ["sysdig-operator"]
           object-templates:
-            - complianceType: musthave
+            - complianceType: mustnothave
               objectDefinition:
                 apiVersion: operators.coreos.com/v1alpha1
                 kind: Subscription
@@ -89,7 +89,7 @@ spec:
             exclude: ["kube-*"]
             include: ["sysdig-operator"]
           object-templates:
-            - complianceType: musthave
+            - complianceType: mustnothave
               objectDefinition:
                 apiVersion: sysdig.com/v1
                 kind: SysdigAgent
