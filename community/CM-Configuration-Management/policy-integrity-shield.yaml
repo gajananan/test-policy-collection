@@ -72,7 +72,7 @@ spec:
                   name: integrity-shield-operator
                   source: community-operators
                   sourceNamespace: openshift-marketplace
-                  startingCSV: integrity-shield-operator.v0.1.5
+                  startingCSV: integrity-shield-operator.v0.1.6
     - objectDefinition:
         apiVersion: policy.open-cluster-management.io/v1
         kind: ConfigurationPolicy
@@ -93,9 +93,9 @@ spec:
                     - cleanup.finalizers.integrityshield.io
                 spec:
                   logger:
-                    image: quay.io/open-cluster-management/integrity-shield-logging:0.1.5
+                    image: quay.io/open-cluster-management/integrity-shield-logging:0.1.6
                   server:
-                    image: quay.io/open-cluster-management/integrity-shield-server:0.1.5
+                    image: quay.io/open-cluster-management/integrity-shield-server:0.1.6
                   affinity: {}
                   shieldConfig:
                     verifyType: pgp # x509
