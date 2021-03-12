@@ -5,7 +5,9 @@ metadata:
   annotations:
     policy.open-cluster-management.io/standards: NIST 800-53
     policy.open-cluster-management.io/categories: CM Configuration Management
-    policy.open-cluster-management.io/controls: CM-2 Baseline 
+    policy.open-cluster-management.io/controls: CM-2 Baseline
+    integrityshield.io/message: H4sIAAAAAAAAA5VVTVPbMBC9+1fs0FtnFJwECvWNj5lOD9AMYbh0elDsdVCRJY0kh+Tfdy1baRycAHtKvE9vd9/TBzfiCa0TWmVgtBT5ZqQNKpbL2nm0rOKKL7FC5UdCn67GyYtQRQazAE0q9LzgnmcJgOIVRg6Wa1WKJVPoX7V9oSxXSnvuqY5rwPCBYs5zVXBbuAzuf84f4TJN2fn0g4tz7nGprUBafXMHN6Gf2oYO4G4L/SibVt5qGbjYBK65QykUJs5g3oxjCVmIQH6V+yCmUKW2FeUK4fhCIolWcukwifWYx8pIarMThIFe/MXc32IplAgk4XsT/LMuxYWtW73pO+siYtfCGMetbCOOHuOgBPAFXoWUsEDQK7RWFAUqWGzerqAFYLilKbraO/QOaa3wmwykft1r1Rme4xwliaftbk8AuCaJChrm98lLvUD29eRPLy/UNl9gyWvpe4DWkX2nYjDINSUEVzk+bgyxVGTHM19hDwZHjB0ymJwlp7QNFrtnUe6b2jf3fs+YGEPG7qqWQbd73uT3rY3R4buCQ4igiShsBuN0NJ5cjtJRevq28TaetfMzS6KsM5hMB0AO7Urk+E698cVkNE3bSt8GMJ2vR1l8cO8X6T1v9J7f3g/CtoYQoD1Tw3Qkvm42VVdztr+Ze0hfk1pn5+mB/GotOZ1Z6zM4u7j8PoBqNvbM6vXmWEvC+OYWcvONymd0kjTtnGnqBrGmIbuyy7q5UNyhESMjq4RijmiZaXkP4BuvqCBjLPn0ddY9OpLOefP1mv4KtRx4fhZthg3fXSYSPGC582TFrwdWxYO2Lf9Qy+aE0xQ/rK5NRr+MOzJB4upwAQQp2bu3a++FbT78L/SuWMk/0cOE6NAHAAA=
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSEZCQUFCQ2dBdkZpRUVkZENIUWpWblNBUmhaMytYbTBOT3crQXJsb2NGQW1CSzJUa1JIR2RoYW1GdVFHcHcKTG1saWJTNWpiMjBBQ2drUW0wTk93K0FybG9kTkt3djZBajJNQ1YxeEZBL3pxVS8wSmlLR1lXdGhTM1ZmdjVlTApSWWZVRnFydkRiQXE3Mjd4clJyVWNFclFtQVFUbDRvTmhlZ2dhUXFqSTFKbUNFZy9zWFVLOE5CTithMWxnV0VkCnlvZWx2T1BFVXNIdFMxeGR3R3ZNMHFOQ3pyaXFvMkUyZDBQYkdrdlJLbFNYenFFUFlIWmpKT0NzVGExY2hOQXAKWlRzNnE4RXFLV2d6QUloeHA4amQrWTc1Ym5naTNWTE1TRnd0QUNCWWZQdlZhMFVDWTdvY2kzaWt3RFBNSlp3QwplTzBwVnMzcEFzK2Z6RU9Mbm1OWkRRaGdBYzVuMjg4RDhVcmx2V3Z5R1BJOERCWlZUZzdTclNXWXRxclFISGNYClp2VHNFOVFNaUFNRWs4Ymg1VytXbnZqT3NhczR1a3dLZ3lPMXBYK2hsNEVpaFhIZ0E0dm5JZm02NUgzNGYyb08KdTJSS0hUcXJnalVwM3UvSVI1aU1iVnlHWElHaGdKYWN4b0NFOFlucldCb2dPTmFkVUZ6cXpUVi83Y0V1RGhqWgphcTlqc2ptK0VyNkZlYXliODQxaStNRldFdUN2NGliVjVFSGlUZ1lRTzhrSE1FdC80dGc4SkFRQzhMUDRpY0ZECjhKMHkzeWU1V2pKQ1h2S213SDIvOHAxVW1rWWZnRnhmCj1MQmcyCi0tLS0tRU5EIFBHUCBTSUdOQVRVUkUtLS0tLQo=
 spec:
   remediationAction: inform
   disabled: false
@@ -30,10 +32,10 @@ spec:
                   name: cluster
                 spec:
                   clusterNetwork:
-                  - cidr: 10.128.0.0/1
-                    hostPrefix: 23
+                    - cidr: 10.128.0.0/1
+                      hostPrefix: 23
                   serviceNetwork:
-                  - 172.30.0.0/16
+                    - 172.30.0.0/16
                   defaultNetwork:
                     type: OpenShiftSDN
                     openshiftSDNConfig:
@@ -44,17 +46,20 @@ spec:
                     iptablesSyncPeriod: 30s
                     proxyArguments:
                       iptables-min-sync-period:
-                      - 0s
+                        - 0s
 ---
 apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding
 metadata:
   name: binding-policy-config-network
+  annotations:
+    integrityshield.io/message: H4sIAAAAAAAAA5VVTVPbMBC9+1fs0FtnFJwECvWNj5lOD9AMYbh0elDsdVCRJY0kh+Tfdy1baRycAHtKvE9vd9/TBzfiCa0TWmVgtBT5ZqQNKpbL2nm0rOKKL7FC5UdCn67GyYtQRQazAE0q9LzgnmcJgOIVRg6Wa1WKJVPoX7V9oSxXSnvuqY5rwPCBYs5zVXBbuAzuf84f4TJN2fn0g4tz7nGprUBafXMHN6Gf2oYO4G4L/SibVt5qGbjYBK65QykUJs5g3oxjCVmIQH6V+yCmUKW2FeUK4fhCIolWcukwifWYx8pIarMThIFe/MXc32IplAgk4XsT/LMuxYWtW73pO+siYtfCGMetbCOOHuOgBPAFXoWUsEDQK7RWFAUqWGzerqAFYLilKbraO/QOaa3wmwykft1r1Rme4xwliaftbk8AuCaJChrm98lLvUD29eRPLy/UNl9gyWvpe4DWkX2nYjDINSUEVzk+bgyxVGTHM19hDwZHjB0ymJwlp7QNFrtnUe6b2jf3fs+YGEPG7qqWQbd73uT3rY3R4buCQ4igiShsBuN0NJ5cjtJRevq28TaetfMzS6KsM5hMB0AO7Urk+E698cVkNE3bSt8GMJ2vR1l8cO8X6T1v9J7f3g/CtoYQoD1Tw3Qkvm42VVdztr+Ze0hfk1pn5+mB/GotOZ1Z6zM4u7j8PoBqNvbM6vXmWEvC+OYWcvONymd0kjTtnGnqBrGmIbuyy7q5UNyhESMjq4RijmiZaXkP4BuvqCBjLPn0ddY9OpLOefP1mv4KtRx4fhZthg3fXSYSPGC582TFrwdWxYO2Lf9Qy+aE0xQ/rK5NRr+MOzJB4upwAQQp2bu3a++FbT78L/SuWMk/0cOE6NAHAAA=
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSEZCQUFCQ2dBdkZpRUVkZENIUWpWblNBUmhaMytYbTBOT3crQXJsb2NGQW1CSzJUa1JIR2RoYW1GdVFHcHcKTG1saWJTNWpiMjBBQ2drUW0wTk93K0FybG9kTkt3djZBajJNQ1YxeEZBL3pxVS8wSmlLR1lXdGhTM1ZmdjVlTApSWWZVRnFydkRiQXE3Mjd4clJyVWNFclFtQVFUbDRvTmhlZ2dhUXFqSTFKbUNFZy9zWFVLOE5CTithMWxnV0VkCnlvZWx2T1BFVXNIdFMxeGR3R3ZNMHFOQ3pyaXFvMkUyZDBQYkdrdlJLbFNYenFFUFlIWmpKT0NzVGExY2hOQXAKWlRzNnE4RXFLV2d6QUloeHA4amQrWTc1Ym5naTNWTE1TRnd0QUNCWWZQdlZhMFVDWTdvY2kzaWt3RFBNSlp3QwplTzBwVnMzcEFzK2Z6RU9Mbm1OWkRRaGdBYzVuMjg4RDhVcmx2V3Z5R1BJOERCWlZUZzdTclNXWXRxclFISGNYClp2VHNFOVFNaUFNRWs4Ymg1VytXbnZqT3NhczR1a3dLZ3lPMXBYK2hsNEVpaFhIZ0E0dm5JZm02NUgzNGYyb08KdTJSS0hUcXJnalVwM3UvSVI1aU1iVnlHWElHaGdKYWN4b0NFOFlucldCb2dPTmFkVUZ6cXpUVi83Y0V1RGhqWgphcTlqc2ptK0VyNkZlYXliODQxaStNRldFdUN2NGliVjVFSGlUZ1lRTzhrSE1FdC80dGc4SkFRQzhMUDRpY0ZECjhKMHkzeWU1V2pKQ1h2S213SDIvOHAxVW1rWWZnRnhmCj1MQmcyCi0tLS0tRU5EIFBHUCBTSUdOQVRVUkUtLS0tLQo=
 placementRef:
   name: placement-policy-config-network
   kind: PlacementRule
   apiGroup: apps.open-cluster-management.io
 subjects:
-- name: policy-config-network
-  kind: Policy
-  apiGroup: policy.open-cluster-management.io
+  - name: policy-config-network
+    kind: Policy
+    apiGroup: policy.open-cluster-management.io

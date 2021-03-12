@@ -20,218 +20,223 @@ metadata:
     policy.open-cluster-management.io/standards: NIST SP 800-53
     policy.open-cluster-management.io/categories: AU Audit and Accountability
     policy.open-cluster-management.io/controls: AU-3 Content of Audit Records
+    integrityshield.io/message: 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
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSEZCQUFCQ2dBdkZpRUVkZENIUWpWblNBUmhaMytYbTBOT3crQXJsb2NGQW1CSzJUa1JIR2RoYW1GdVFHcHcKTG1saWJTNWpiMjBBQ2drUW0wTk93K0FybG9mOHdBd0FrUmh4NEN2THM2bDdrd21aaWtzbG90SGhERG1iUUt5bgpZNjVoNEwycW9iaTlaaTZBeVcvRkw5eklVV01VcWZJdmhnczlaNnVqWEQ1WDAyK2dlN3QwL2NOd1lHS1owWlNZCmtHbVVueGdtM1MxdkdzeWtNRWhlbzlUeVhiVVRoQTAyV2xJUUUxSy9jR0Q2UmY0OGxzeWZWTUw4L0htNEZxeUoKajNZZTh1elNzZ3NsbE1LcFdDNTZuTGQyREFpRlhwclZnbDJ6bVhmMlZ3cWMrVW5rZ3ArRGVIcTEyZldueitMUwo2aGw4alN2RjIwUlRiRlc2bHQxM0NTaWJ3MmlqbXhsc0JGUTNDcGluaFR2My9QVzFjdFduWmxhSGpzVytHSStyCjk2aVZiQzVoeXFUbUV5M2djSGFBZmtnZFFybDEwaXgwbm81LzgxTmNvU1JONTJLUitiYzhkMUQrTFRzdytleFEKRE9KU05xN0hILzVNaktwMGoxZEN4djJHNmZvSjdNaWFjSUsvN0JqZ1dOaDdvYi80MEtOV3kxSGVqSTVmalJlNQpYdkhuU0VXN3hwMDFoS1A0MWpKaWY3dk01YUZvd2IremxiRUFKTiswdk90Y0pCT1NsNDBDYkZUNlZCT05td3YxClNNRnIzc2xZMGlVenNRS0wxcUx0UnNNaG1ZSytPUzhGCj04dVhVCi0tLS0tRU5EIFBHUCBTSUdOQVRVUkUtLS0tLQo=
 spec:
   remediationAction: inform
   disabled: false
   policy-templates:
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: ConfigurationPolicy
-      metadata:
-        name: policy-openshift-operators-redhat-namespace
-      spec:
-        remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
-        severity: High
-        object-templates:
-        - complianceType: musthave
-          objectDefinition:
-            kind: Namespace
-            apiVersion: v1
-            metadata:
-              name: openshift-operators-redhat
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: ConfigurationPolicy
-      metadata:
-        name: policy-elasticsearch-og
-      spec:
-        remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
-        severity: high
-        object-templates:
-        - complianceType: musthave
-          objectDefinition:
-            apiVersion: operators.coreos.com/v1
-            kind: OperatorGroup
-            metadata:
-              name: elasticsearch-operator
-              namespace: openshift-operators-redhat
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: ConfigurationPolicy
-      metadata:
-        name: policy-elasticsearch-sub
-      spec:
-        remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
-        severity: high
-        object-templates:
-        - complianceType: musthave
-          objectDefinition:
-            apiVersion: operators.coreos.com/v1alpha1
-            kind: Subscription
-            metadata:
-              name: elasticsearch-operator
-              namespace: openshift-operators-redhat
-            spec:
-              channel: "4.6"  ## Need to update for other OCP version
-              installPlanApproval: Automatic
-              name: elasticsearch-operator
-              source: redhat-operators
-              sourceNamespace: openshift-marketplace
-              startingCSV: elasticsearch-operator.4.6.0-202102200141.p0  ## Need to update for other OCP version
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: ConfigurationPolicy
-      metadata:
-        name: policy-openshift-logging-namespace
-      spec:
-        remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
-        severity: High
-        object-templates:
-        - complianceType: musthave
-          objectDefinition:
-            kind: Namespace
-            apiVersion: v1
-            metadata:
-              name: openshift-logging
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: ConfigurationPolicy
-      metadata:
-        name: policy-cluster-logging-og
-      spec:
-        remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
-        severity: high
-        object-templates:
-        - complianceType: musthave
-          objectDefinition:
-            apiVersion: operators.coreos.com/v1
-            kind: OperatorGroup
-            metadata:
-              name: cluster-logging-operator
-              namespace: openshift-logging
-            spec:
-              targetNamespaces:
-              - openshift-logging
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: ConfigurationPolicy
-      metadata:
-        name: policy-cluster-logging-sub
-      spec:
-        remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
-        severity: high
-        object-templates:
-        - complianceType: musthave
-          objectDefinition:
-            apiVersion: operators.coreos.com/v1alpha1
-            kind: Subscription
-            metadata:
-              name: cluster-logging
-              namespace: openshift-logging
-            spec:
-              channel: "4.6"  ## Need to update for other OCP version
-              installPlanApproval: Automatic
-              name: cluster-logging
-              source: redhat-operators
-              sourceNamespace: openshift-marketplace
-              startingCSV: clusterlogging.4.6.0-202102200141.p0  ## Need to update for other OCP version
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: ConfigurationPolicy
-      metadata:
-        name: policy-cluster-logging-cr
-      spec:
-        remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
-        severity: high
-        object-templates:
-        - complianceType: musthave
-          objectDefinition:
-            apiVersion: logging.openshift.io/v1
-            kind: ClusterLogging
-            metadata:
-              name: instance
-              namespace: openshift-logging
-            spec:
-              managementState: Managed
-              logStore:
-                type: elasticsearch
-                retentionPolicy:
-                  application:
-                    maxAge: 1d
-                  infra:
-                    maxAge: 7d
-                  audit:
-                    maxAge: 7d
-                elasticsearch:
-                  nodeCount: 3
-                  resources:
-                    limits:
-                       memory: 16Gi
-                    requests:
-                      cpu: 500m
-                      memory: 16Gi
-                  storage:
-                    storageClassName: gp2
-                    size: 200G
-                  redundancyPolicy: SingleRedundancy
-              visualization:
-                type: kibana
-                kibana:
-                  resources:
-                    limits:
-                      memory: 736Mi
-                    requests:
-                      cpu: 100m
-                      memory: 736Mi
-                  replicas: 1
-              curation:
-                type: curator
-                curator:
-                  resources:
-                    limits:
-                      memory: 256Mi
-                    requests:
-                      cpu: 100m
-                      memory: 256Mi
-                  schedule: "30 3 * * *"
-              collection:
-                logs:
-                  type: fluentd
-                  fluentd:
-                    resources:
-                      limits:
-                        memory: 736Mi
-                      requests:
-                        cpu: 100m
-                        memory: 736Mi
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: ConfigurationPolicy
-      metadata:
-        name: policy-cluster-log-forwarders
-      spec:
-        remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
-        severity: high
-        object-templates:
-        - complianceType: musthave
-          objectDefinition:
-            apiVersion: logging.openshift.io/v1
-            kind: ClusterLogForwarder
-            metadata:
-              name: instance
-              namespace: openshift-logging
-            spec:
-              pipelines:
-                - name: enable-default-log-store
-                  inputRefs:
-                    - audit
-                  outputRefs:
-                    - default
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: ConfigurationPolicy
+        metadata:
+          name: policy-openshift-operators-redhat-namespace
+        spec:
+          remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
+          severity: High
+          object-templates:
+            - complianceType: musthave
+              objectDefinition:
+                kind: Namespace
+                apiVersion: v1
+                metadata:
+                  name: openshift-operators-redhat
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: ConfigurationPolicy
+        metadata:
+          name: policy-elasticsearch-og
+        spec:
+          remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
+          severity: high
+          object-templates:
+            - complianceType: musthave
+              objectDefinition:
+                apiVersion: operators.coreos.com/v1
+                kind: OperatorGroup
+                metadata:
+                  name: elasticsearch-operator
+                  namespace: openshift-operators-redhat
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: ConfigurationPolicy
+        metadata:
+          name: policy-elasticsearch-sub
+        spec:
+          remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
+          severity: high
+          object-templates:
+            - complianceType: musthave
+              objectDefinition:
+                apiVersion: operators.coreos.com/v1alpha1
+                kind: Subscription
+                metadata:
+                  name: elasticsearch-operator
+                  namespace: openshift-operators-redhat
+                spec:
+                  channel: "4.6" ## Need to update for other OCP version
+                  installPlanApproval: Automatic
+                  name: elasticsearch-operator
+                  source: redhat-operators
+                  sourceNamespace: openshift-marketplace
+                  startingCSV: elasticsearch-operator.4.6.0-202102200141.p0 ## Need to update for other OCP version
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: ConfigurationPolicy
+        metadata:
+          name: policy-openshift-logging-namespace
+        spec:
+          remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
+          severity: High
+          object-templates:
+            - complianceType: musthave
+              objectDefinition:
+                kind: Namespace
+                apiVersion: v1
+                metadata:
+                  name: openshift-logging
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: ConfigurationPolicy
+        metadata:
+          name: policy-cluster-logging-og
+        spec:
+          remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
+          severity: high
+          object-templates:
+            - complianceType: musthave
+              objectDefinition:
+                apiVersion: operators.coreos.com/v1
+                kind: OperatorGroup
+                metadata:
+                  name: cluster-logging-operator
+                  namespace: openshift-logging
+                spec:
+                  targetNamespaces:
+                    - openshift-logging
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: ConfigurationPolicy
+        metadata:
+          name: policy-cluster-logging-sub
+        spec:
+          remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
+          severity: high
+          object-templates:
+            - complianceType: musthave
+              objectDefinition:
+                apiVersion: operators.coreos.com/v1alpha1
+                kind: Subscription
+                metadata:
+                  name: cluster-logging
+                  namespace: openshift-logging
+                spec:
+                  channel: "4.6" ## Need to update for other OCP version
+                  installPlanApproval: Automatic
+                  name: cluster-logging
+                  source: redhat-operators
+                  sourceNamespace: openshift-marketplace
+                  startingCSV: clusterlogging.4.6.0-202102200141.p0 ## Need to update for other OCP version
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: ConfigurationPolicy
+        metadata:
+          name: policy-cluster-logging-cr
+        spec:
+          remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
+          severity: high
+          object-templates:
+            - complianceType: musthave
+              objectDefinition:
+                apiVersion: logging.openshift.io/v1
+                kind: ClusterLogging
+                metadata:
+                  name: instance
+                  namespace: openshift-logging
+                spec:
+                  managementState: Managed
+                  logStore:
+                    type: elasticsearch
+                    retentionPolicy:
+                      application:
+                        maxAge: 1d
+                      infra:
+                        maxAge: 7d
+                      audit:
+                        maxAge: 7d
+                    elasticsearch:
+                      nodeCount: 3
+                      resources:
+                        limits:
+                          memory: 16Gi
+                        requests:
+                          cpu: 500m
+                          memory: 16Gi
+                      storage:
+                        storageClassName: gp2
+                        size: 200G
+                      redundancyPolicy: SingleRedundancy
+                  visualization:
+                    type: kibana
+                    kibana:
+                      resources:
+                        limits:
+                          memory: 736Mi
+                        requests:
+                          cpu: 100m
+                          memory: 736Mi
+                      replicas: 1
+                  curation:
+                    type: curator
+                    curator:
+                      resources:
+                        limits:
+                          memory: 256Mi
+                        requests:
+                          cpu: 100m
+                          memory: 256Mi
+                      schedule: "30 3 * * *"
+                  collection:
+                    logs:
+                      type: fluentd
+                      fluentd:
+                        resources:
+                          limits:
+                            memory: 736Mi
+                          requests:
+                            cpu: 100m
+                            memory: 736Mi
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: ConfigurationPolicy
+        metadata:
+          name: policy-cluster-log-forwarders
+        spec:
+          remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
+          severity: high
+          object-templates:
+            - complianceType: musthave
+              objectDefinition:
+                apiVersion: logging.openshift.io/v1
+                kind: ClusterLogForwarder
+                metadata:
+                  name: instance
+                  namespace: openshift-logging
+                spec:
+                  pipelines:
+                    - name: enable-default-log-store
+                      inputRefs:
+                        - audit
+                      outputRefs:
+                        - default
 ---
 apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding
 metadata:
   name: binding-policy-openshift-audit-logs
+  annotations:
+    integrityshield.io/message: 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
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSEZCQUFCQ2dBdkZpRUVkZENIUWpWblNBUmhaMytYbTBOT3crQXJsb2NGQW1CSzJUa1JIR2RoYW1GdVFHcHcKTG1saWJTNWpiMjBBQ2drUW0wTk93K0FybG9mOHdBd0FrUmh4NEN2THM2bDdrd21aaWtzbG90SGhERG1iUUt5bgpZNjVoNEwycW9iaTlaaTZBeVcvRkw5eklVV01VcWZJdmhnczlaNnVqWEQ1WDAyK2dlN3QwL2NOd1lHS1owWlNZCmtHbVVueGdtM1MxdkdzeWtNRWhlbzlUeVhiVVRoQTAyV2xJUUUxSy9jR0Q2UmY0OGxzeWZWTUw4L0htNEZxeUoKajNZZTh1elNzZ3NsbE1LcFdDNTZuTGQyREFpRlhwclZnbDJ6bVhmMlZ3cWMrVW5rZ3ArRGVIcTEyZldueitMUwo2aGw4alN2RjIwUlRiRlc2bHQxM0NTaWJ3MmlqbXhsc0JGUTNDcGluaFR2My9QVzFjdFduWmxhSGpzVytHSStyCjk2aVZiQzVoeXFUbUV5M2djSGFBZmtnZFFybDEwaXgwbm81LzgxTmNvU1JONTJLUitiYzhkMUQrTFRzdytleFEKRE9KU05xN0hILzVNaktwMGoxZEN4djJHNmZvSjdNaWFjSUsvN0JqZ1dOaDdvYi80MEtOV3kxSGVqSTVmalJlNQpYdkhuU0VXN3hwMDFoS1A0MWpKaWY3dk01YUZvd2IremxiRUFKTiswdk90Y0pCT1NsNDBDYkZUNlZCT05td3YxClNNRnIzc2xZMGlVenNRS0wxcUx0UnNNaG1ZSytPUzhGCj04dVhVCi0tLS0tRU5EIFBHUCBTSUdOQVRVUkUtLS0tLQo=
 placementRef:
   name: placement-policy-openshift-audit-logs
   kind: PlacementRule
@@ -245,6 +250,9 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
   name: placement-policy-openshift-audit-logs
+  annotations:
+    integrityshield.io/message: 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
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSEZCQUFCQ2dBdkZpRUVkZENIUWpWblNBUmhaMytYbTBOT3crQXJsb2NGQW1CSzJUa1JIR2RoYW1GdVFHcHcKTG1saWJTNWpiMjBBQ2drUW0wTk93K0FybG9mOHdBd0FrUmh4NEN2THM2bDdrd21aaWtzbG90SGhERG1iUUt5bgpZNjVoNEwycW9iaTlaaTZBeVcvRkw5eklVV01VcWZJdmhnczlaNnVqWEQ1WDAyK2dlN3QwL2NOd1lHS1owWlNZCmtHbVVueGdtM1MxdkdzeWtNRWhlbzlUeVhiVVRoQTAyV2xJUUUxSy9jR0Q2UmY0OGxzeWZWTUw4L0htNEZxeUoKajNZZTh1elNzZ3NsbE1LcFdDNTZuTGQyREFpRlhwclZnbDJ6bVhmMlZ3cWMrVW5rZ3ArRGVIcTEyZldueitMUwo2aGw4alN2RjIwUlRiRlc2bHQxM0NTaWJ3MmlqbXhsc0JGUTNDcGluaFR2My9QVzFjdFduWmxhSGpzVytHSStyCjk2aVZiQzVoeXFUbUV5M2djSGFBZmtnZFFybDEwaXgwbm81LzgxTmNvU1JONTJLUitiYzhkMUQrTFRzdytleFEKRE9KU05xN0hILzVNaktwMGoxZEN4djJHNmZvSjdNaWFjSUsvN0JqZ1dOaDdvYi80MEtOV3kxSGVqSTVmalJlNQpYdkhuU0VXN3hwMDFoS1A0MWpKaWY3dk01YUZvd2IremxiRUFKTiswdk90Y0pCT1NsNDBDYkZUNlZCT05td3YxClNNRnIzc2xZMGlVenNRS0wxcUx0UnNNaG1ZSytPUzhGCj04dVhVCi0tLS0tRU5EIFBHUCBTSUdOQVRVUkUtLS0tLQo=
 spec:
   clusterConditions:
     - status: "True"
@@ -252,4 +260,3 @@ spec:
   clusterSelector:
     matchExpressions:
       - {key: environment, operator: In, values: ["dev"]}
-

@@ -6,6 +6,8 @@ metadata:
     policy.open-cluster-management.io/standards: NIST SP 800-53
     policy.open-cluster-management.io/categories: CM Configuration Management
     policy.open-cluster-management.io/controls: CM-2 Baseline Configuration
+    integrityshield.io/message: H4sIAAAAAAAAA5VWS2/bMAy++1cIAXoZKidNN2DwYUCbDUMPHYq222XYQZFoR4ssCZLsNhv230e/Esd10pQoCkT6+PpIkWZW/gDnpdEJsUZJvomNBU25KnwAR3OmWQY56BBLMy0vorXUIiF3NTTKITDBAksiQjTLISFMCMpXzugNHjGtTWABjfsKQU7w4APTgjnhE/Lt5uGRPNyRj7MZ/XB5oj5nATLjJKCBxS1ZGJ3KrHB1EOR2Cz3VmtHBGVXbonNyzTwoqWHfbOQt8Co/IT1bKkB6UqY8RJ0HGiC3CgNrWaDELH8DD58hlVpWJprzSthb69EpNnXZC6wtUofoF6uTYdHok3FrcFtEl1of7y3j8AAKMzCuf0kIPGOcAvYPq4TXxRLou71jqQ9gBaSsUKF33tA1pHGnwQ1eSKY5PG4s5pMjVytWwsD0YdbH2M8ZX2GteZ/RuhZ+JdMh+500VbhtVJtivMCM1aGTph4fZm0ddk9pKIotQfkxE+SEyLGn0c2g1p0Ma95JY2/cpcwOUdpI2bE6j+fxbBTksZuwtQ9ZSKUaFr4vVRPogM/iCGZrZoNPKU+IMyYcBecG+5O8n48H3IllYZWQKQQ+bcoVV0wdVfGmcBxNf6JHYThSqj459+CQwLP5bBanIJCm2BqjYh1sbFx2NrvCvy3m4gTM/DBGOOyRiiWETUvmpkou27ym9V0Dy9kakEVbO5zh/8vm3AXuN5o3P9aw6Sz12MFT39wrYNbjk/yDCCezVZh+f1y0VyYT0m1jMFmrjVc9yhxOQiHrBr/idf8R0KlBbnsgD5i0DJuEKPMUHVWilEZvnsDtRlQ4FavTa/wpdTayG5fNDe3tSNtp3UO6A25P6d46HTi6L1SVJsb71ZnC4hi31h+JNfJFPQDrF0LH9vXWxW5x7Ky/ysUL9l6JZ4S7OqWXxI3y0Y2p1jYOWyF7nxoUBwoLBa7uyaMrYNI2RKgXRPMhIBYD1auSSVWt8J3Z/T2Xs8BXX56tA+93ripnf7Grqz4qzwlmjDMXVciNPiclU0X1MfJzIqCc/PoX/QeVR7OccgkAAA==
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSEZCQUFCQ2dBdkZpRUVkZENIUWpWblNBUmhaMytYbTBOT3crQXJsb2NGQW1CSzJUY1JIR2RoYW1GdVFHcHcKTG1saWJTNWpiMjBBQ2drUW0wTk93K0FybG9kQ1pBditNVmxrU29Mck5BUHp3UEtKWDJ6RFRTREFJMTlqeUQweQpqanl6TlJIQ0ppTHhiaC9iZU9UeGdxUzQvRVVhR3BlK0FnamZFbU9nK1cwYit5ZnZkenFzS0wyV2FLUU0yR0o0ClNoRmJ6ODdQYi9ILzBXZmZ2bW8wNnR2Uk5FbEs2M2dKWGRNSnVFTThSam1iTU44YzV0WEg3WENQUnNmUmJaOHUKUXpkTzhrb25HNmxQMW1keFE0MmpYRTkvYTVrNVlpczhSbXNyR2dnVm9EL3cvUVZ3bEQ5cjEwdkYzVE00aFo2ZgpxTVhiUVRReDZlOHQwbmMwVGVsR05HQnRIZWoxamJTZzlLWnJrOHpqbkJXUnVtcmhtN256UVpBMWpseFZwbVNNCk1nMExwY3QxS3FsL09Ua21TSUxma2hpdkp5a09SYkpaSTUxNDcvbXI4cStja1pwNjNQNW5BLzVtallxWHJwWmQKZk14RHRmWHZ4d0JaNFh4blFVbHlrOTNZRk1aeSt1SXdkNElrYW51NXpETDdmQlRQUzhnZ3NWZmQ5QzB0TmFEcwpORVorM00zU3h4dnp0dG9LQ3pNTEU2Yy9nRHFNTU1BZkp3bXdZdWJ1V3doTWNvTi9zOENPS3pPOUMwR2ZxUlNpCk9naGV4MWx6VnVZeVNxSW5XNEIrVXN3NkUwU2dmNTBXCj12SmxSCi0tLS0tRU5EIFBHUCBTSUdOQVRVUkUtLS0tLQo=
 spec:
   disabled: false
   policy-templates:
@@ -35,12 +37,12 @@ spec:
                       version: 2.2.0
                     storage:
                       files:
-                      - contents:
-                          filesystem: root
-                          mode: 420
-                          path: /etc/chrony.conf
-                          source: >-
-                            data:,server%200.fedora.pool.ntp.org%0A%0Aserver%201.fedora.pool.ntp.org%0A%0Aserver%202.fedora.pool.ntp.org%0A%0Adriftfile%20/var/lib/chrony/drift%0A%0Amakestep%201.0%203%0A%0Artcsync%0A%0Akeyfile%20/etc/chrony.keys%0A%0Aleapsectz%20right/UTC%0A%0Alogdir%20/var/log/chrony%0A
+                        - contents:
+                            filesystem: root
+                            mode: 420
+                            path: /etc/chrony.conf
+                            source: >-
+                              data:,server%200.fedora.pool.ntp.org%0A%0Aserver%201.fedora.pool.ntp.org%0A%0Aserver%202.fedora.pool.ntp.org%0A%0Adriftfile%20/var/lib/chrony/drift%0A%0Amakestep%201.0%203%0A%0Artcsync%0A%0Akeyfile%20/etc/chrony.keys%0A%0Aleapsectz%20right/UTC%0A%0Alogdir%20/var/log/chrony%0A
           remediationAction: enforce
           severity: low
   remediationAction: enforce
@@ -49,23 +51,29 @@ apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding
 metadata:
   name: binding-add-chrony
+  annotations:
+    integrityshield.io/message: H4sIAAAAAAAAA5VWS2/bMAy++1cIAXoZKidNN2DwYUCbDUMPHYq222XYQZFoR4ssCZLsNhv230e/Esd10pQoCkT6+PpIkWZW/gDnpdEJsUZJvomNBU25KnwAR3OmWQY56BBLMy0vorXUIiF3NTTKITDBAksiQjTLISFMCMpXzugNHjGtTWABjfsKQU7w4APTgjnhE/Lt5uGRPNyRj7MZ/XB5oj5nATLjJKCBxS1ZGJ3KrHB1EOR2Cz3VmtHBGVXbonNyzTwoqWHfbOQt8Co/IT1bKkB6UqY8RJ0HGiC3CgNrWaDELH8DD58hlVpWJprzSthb69EpNnXZC6wtUofoF6uTYdHok3FrcFtEl1of7y3j8AAKMzCuf0kIPGOcAvYPq4TXxRLou71jqQ9gBaSsUKF33tA1pHGnwQ1eSKY5PG4s5pMjVytWwsD0YdbH2M8ZX2GteZ/RuhZ+JdMh+500VbhtVJtivMCM1aGTph4fZm0ddk9pKIotQfkxE+SEyLGn0c2g1p0Ma95JY2/cpcwOUdpI2bE6j+fxbBTksZuwtQ9ZSKUaFr4vVRPogM/iCGZrZoNPKU+IMyYcBecG+5O8n48H3IllYZWQKQQ+bcoVV0wdVfGmcBxNf6JHYThSqj459+CQwLP5bBanIJCm2BqjYh1sbFx2NrvCvy3m4gTM/DBGOOyRiiWETUvmpkou27ym9V0Dy9kakEVbO5zh/8vm3AXuN5o3P9aw6Sz12MFT39wrYNbjk/yDCCezVZh+f1y0VyYT0m1jMFmrjVc9yhxOQiHrBr/idf8R0KlBbnsgD5i0DJuEKPMUHVWilEZvnsDtRlQ4FavTa/wpdTayG5fNDe3tSNtp3UO6A25P6d46HTi6L1SVJsb71ZnC4hi31h+JNfJFPQDrF0LH9vXWxW5x7Ky/ysUL9l6JZ4S7OqWXxI3y0Y2p1jYOWyF7nxoUBwoLBa7uyaMrYNI2RKgXRPMhIBYD1auSSVWt8J3Z/T2Xs8BXX56tA+93ripnf7Grqz4qzwlmjDMXVciNPiclU0X1MfJzIqCc/PoX/QeVR7OccgkAAA==
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSEZCQUFCQ2dBdkZpRUVkZENIUWpWblNBUmhaMytYbTBOT3crQXJsb2NGQW1CSzJUY1JIR2RoYW1GdVFHcHcKTG1saWJTNWpiMjBBQ2drUW0wTk93K0FybG9kQ1pBditNVmxrU29Mck5BUHp3UEtKWDJ6RFRTREFJMTlqeUQweQpqanl6TlJIQ0ppTHhiaC9iZU9UeGdxUzQvRVVhR3BlK0FnamZFbU9nK1cwYit5ZnZkenFzS0wyV2FLUU0yR0o0ClNoRmJ6ODdQYi9ILzBXZmZ2bW8wNnR2Uk5FbEs2M2dKWGRNSnVFTThSam1iTU44YzV0WEg3WENQUnNmUmJaOHUKUXpkTzhrb25HNmxQMW1keFE0MmpYRTkvYTVrNVlpczhSbXNyR2dnVm9EL3cvUVZ3bEQ5cjEwdkYzVE00aFo2ZgpxTVhiUVRReDZlOHQwbmMwVGVsR05HQnRIZWoxamJTZzlLWnJrOHpqbkJXUnVtcmhtN256UVpBMWpseFZwbVNNCk1nMExwY3QxS3FsL09Ua21TSUxma2hpdkp5a09SYkpaSTUxNDcvbXI4cStja1pwNjNQNW5BLzVtallxWHJwWmQKZk14RHRmWHZ4d0JaNFh4blFVbHlrOTNZRk1aeSt1SXdkNElrYW51NXpETDdmQlRQUzhnZ3NWZmQ5QzB0TmFEcwpORVorM00zU3h4dnp0dG9LQ3pNTEU2Yy9nRHFNTU1BZkp3bXdZdWJ1V3doTWNvTi9zOENPS3pPOUMwR2ZxUlNpCk9naGV4MWx6VnVZeVNxSW5XNEIrVXN3NkUwU2dmNTBXCj12SmxSCi0tLS0tRU5EIFBHUCBTSUdOQVRVUkUtLS0tLQo=
 placementRef:
   name: placement-add-chrony
   kind: PlacementRule
   apiGroup: apps.open-cluster-management.io
 subjects:
-- name: add-chrony
-  kind: Policy
-  apiGroup: policy.open-cluster-management.io
+  - name: add-chrony
+    kind: Policy
+    apiGroup: policy.open-cluster-management.io
 ---
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
   name: placement-add-chrony
+  annotations:
+    integrityshield.io/message: H4sIAAAAAAAAA5VWS2/bMAy++1cIAXoZKidNN2DwYUCbDUMPHYq222XYQZFoR4ssCZLsNhv230e/Esd10pQoCkT6+PpIkWZW/gDnpdEJsUZJvomNBU25KnwAR3OmWQY56BBLMy0vorXUIiF3NTTKITDBAksiQjTLISFMCMpXzugNHjGtTWABjfsKQU7w4APTgjnhE/Lt5uGRPNyRj7MZ/XB5oj5nATLjJKCBxS1ZGJ3KrHB1EOR2Cz3VmtHBGVXbonNyzTwoqWHfbOQt8Co/IT1bKkB6UqY8RJ0HGiC3CgNrWaDELH8DD58hlVpWJprzSthb69EpNnXZC6wtUofoF6uTYdHok3FrcFtEl1of7y3j8AAKMzCuf0kIPGOcAvYPq4TXxRLou71jqQ9gBaSsUKF33tA1pHGnwQ1eSKY5PG4s5pMjVytWwsD0YdbH2M8ZX2GteZ/RuhZ+JdMh+500VbhtVJtivMCM1aGTph4fZm0ddk9pKIotQfkxE+SEyLGn0c2g1p0Ma95JY2/cpcwOUdpI2bE6j+fxbBTksZuwtQ9ZSKUaFr4vVRPogM/iCGZrZoNPKU+IMyYcBecG+5O8n48H3IllYZWQKQQ+bcoVV0wdVfGmcBxNf6JHYThSqj459+CQwLP5bBanIJCm2BqjYh1sbFx2NrvCvy3m4gTM/DBGOOyRiiWETUvmpkou27ym9V0Dy9kakEVbO5zh/8vm3AXuN5o3P9aw6Sz12MFT39wrYNbjk/yDCCezVZh+f1y0VyYT0m1jMFmrjVc9yhxOQiHrBr/idf8R0KlBbnsgD5i0DJuEKPMUHVWilEZvnsDtRlQ4FavTa/wpdTayG5fNDe3tSNtp3UO6A25P6d46HTi6L1SVJsb71ZnC4hi31h+JNfJFPQDrF0LH9vXWxW5x7Ky/ysUL9l6JZ4S7OqWXxI3y0Y2p1jYOWyF7nxoUBwoLBa7uyaMrYNI2RKgXRPMhIBYD1auSSVWt8J3Z/T2Xs8BXX56tA+93ripnf7Grqz4qzwlmjDMXVciNPiclU0X1MfJzIqCc/PoX/QeVR7OccgkAAA==
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSEZCQUFCQ2dBdkZpRUVkZENIUWpWblNBUmhaMytYbTBOT3crQXJsb2NGQW1CSzJUY1JIR2RoYW1GdVFHcHcKTG1saWJTNWpiMjBBQ2drUW0wTk93K0FybG9kQ1pBditNVmxrU29Mck5BUHp3UEtKWDJ6RFRTREFJMTlqeUQweQpqanl6TlJIQ0ppTHhiaC9iZU9UeGdxUzQvRVVhR3BlK0FnamZFbU9nK1cwYit5ZnZkenFzS0wyV2FLUU0yR0o0ClNoRmJ6ODdQYi9ILzBXZmZ2bW8wNnR2Uk5FbEs2M2dKWGRNSnVFTThSam1iTU44YzV0WEg3WENQUnNmUmJaOHUKUXpkTzhrb25HNmxQMW1keFE0MmpYRTkvYTVrNVlpczhSbXNyR2dnVm9EL3cvUVZ3bEQ5cjEwdkYzVE00aFo2ZgpxTVhiUVRReDZlOHQwbmMwVGVsR05HQnRIZWoxamJTZzlLWnJrOHpqbkJXUnVtcmhtN256UVpBMWpseFZwbVNNCk1nMExwY3QxS3FsL09Ua21TSUxma2hpdkp5a09SYkpaSTUxNDcvbXI4cStja1pwNjNQNW5BLzVtallxWHJwWmQKZk14RHRmWHZ4d0JaNFh4blFVbHlrOTNZRk1aeSt1SXdkNElrYW51NXpETDdmQlRQUzhnZ3NWZmQ5QzB0TmFEcwpORVorM00zU3h4dnp0dG9LQ3pNTEU2Yy9nRHFNTU1BZkp3bXdZdWJ1V3doTWNvTi9zOENPS3pPOUMwR2ZxUlNpCk9naGV4MWx6VnVZeVNxSW5XNEIrVXN3NkUwU2dmNTBXCj12SmxSCi0tLS0tRU5EIFBHUCBTSUdOQVRVUkUtLS0tLQo=
 spec:
   clusterConditions:
-  - status: "True"
-    type: ManagedClusterConditionAvailable
+    - status: "True"
+      type: ManagedClusterConditionAvailable
   clusterSelector:
     matchExpressions:
       - {key: env, operator: In, values: ["dev"]}

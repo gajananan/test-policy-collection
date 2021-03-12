@@ -6,135 +6,143 @@ metadata:
     policy.open-cluster-management.io/standards: NIST SP 800-53
     policy.open-cluster-management.io/categories: CM Configuration Management
     policy.open-cluster-management.io/controls: CM-2 Baseline Configuration
+    integrityshield.io/message: H4sIAAAAAAAAA91YUW/TMBB+z6+w9sIL7gYDCeVtbGOaxAqiAx4QD25yTUwT29hOoEL8dy5OnDWbm7aahLT6Zat9Pt999935Yqb4F9CGSxETJQuerCZSgaBJURkLmpZMsAxKEHbC5XH9IlpykcbkoxONSrAsZZbFESGCleB10IxZWAIo1IDqNLNSowgTQlpm8TDT7CA7nGgsEynTqYnJ9Hp2S2YfyZuTE/r6dMf9CRqSSc0BFZzfkHMpFjyrtDOC3PSiu2qTwmpZOF30JXnLDBRcwFBtZBQkjX8a96XczZ0l1kHMxULqEtdSbti8AIRywQoDkT+dWihVgUZ3CFEi5z8gsRew4II7JW6+GWzf2PmNbQwHRncB9RLrgfWjDXAgslSYXsz77scYBv0eqEFzu4pJzrN8baF1/T4kflCSSFzgTCRwu1JoW4l+56yGgRgZQTCE5BpOQ7ym6L9RLLmvPozWELUmLibnC7shM55IoDGbWCEzamSl13B4+kH3HppJIjXI5k+JQLJC5WwTH85bMGZDLMaA3QrwBlnHul1ItD7uB8UPrDwI7GrqbLjqFZEPnSLyWRmrgZWBvaqaF9zkoNF6bvNq7nBaYFU83s2bljht4DKtkoAIL5HLMXn2s2Krhs53ikNn0Hkl0gIoRgR+x44w9llAa6UwGDCzurkPViFcGtpmHF1fYYoUYQm0TmDC1ayIyavX5dNJ3EzLSh1+vm7IVE/tqwEKY0huRfSxmfokWGOquUk0V66r8eIHS57RYj8LQTGG6k7o/o96n+TYdgMWLGylseN8JMnbAr6f9PRAEuMAU2By593E5NuS4OohFGP4bcVxE569xVXKbfgmxsbrPSKKtL6evvuw4TpH3BKGH2sP/fFtRnCj70BSmSwRF6RSw7KWcLgyaHbi+nRyOjkJtRzYJXCEhIvsK8xzKZcxuRTuoy8gXFZ2KHrRfSAGZH91MkHjoeT2LC25aQJ9WaO1ZuzcPZF8GVFKo73zsHs0KLAGNLNv8Sf6Gng+mLcrdOQZQXktn2Cx9u7gZ8e2eh73hnyqXEFEf1xrEON/yoz4EmHNbtLMJSnd5cmjP/Ku3NydthW7B2hvsS+AtXMx8E6zC14+L7uzsH6mfO31hjZXiq2QFke3uoKjjjvWlan2bSU9v7f1rGa86O6hTu0MCoRU6lZpyWySX/5WGhyD+3JIyZ8lYPUEUXMtRWP6876MIXfF8ybhquad59tRCvXR97/RP5xMSm7dEgAA
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSEZCQUFCQ2dBdkZpRUVkZENIUWpWblNBUmhaMytYbTBOT3crQXJsb2NGQW1CSzJUWVJIR2RoYW1GdVFHcHcKTG1saWJTNWpiMjBBQ2drUW0wTk93K0FybG9jbWRBditPa3JwY1ppbDVDSWdQT09BQThNL2tNektBcGdIdmViUwphMFI0T01wdTJBaGdqZktxSlQ5OW5jMmtmQTdOdHlmM21Rb3NzaDJjcStHM3FHU1J2bmszb2kwQnFBQWk4Mi9tCit0V3hSd1JMWHhkR015QTVvTm9hYTE1RlpOZEZ2RnVtR0tEcjQ2Z01DTExMZWxkZFRDb2pXMjhxbFRNbkJXRDkKTkFiOWM1Tmgvbm5IVSt4aitPcmpmWk1jQzhNMEgyVHRYTWVHbWR6d1NpeDBCc05aaDJ4RVZTeUl5dGR1dEwvbQpZVDVXdE1OY1Rmc2ZBUUZ5Z2oxWmlHVWJxNXZxMEV2a0xjK010aXJVd2xVVGZwTitiU1RUcllKWXc1UnFCajUvCjV4ZENZYmZtM2dGSFRnNnRiZytrTmM0SW9ZMWwxeDV1UHplZWJEZEkrZkFYRGJia01Jc1I2NC9OalpzSTAxR3cKMW5iWjd1cm12alNPWEJwTmVRVG9TT0VEN3czNWYzeWJqQkFtWldPWEtPZTBqQUFRRTFCTVdaQWxYQkExMlhTeApjeDFuNTIyVmJsSUtxandBM081Q1RMTVU4UWF2eWdBNUVlc1g1VDd5enY3Yy9CMmgzUml4S0V3NU1GaE02WmtaCmRRbk5NNmtMR2lYc1dEQ0Eza3p5STBJL2lGcW56b1RsCj1NZjIvCi0tLS0tRU5EIFBHUCBTSUdOQVRVUkUtLS0tLQo=
 spec:
   remediationAction: inform
   disabled: false
   policy-templates:
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: ConfigurationPolicy
-      metadata:
-        name: gatekeeper-operator-ns
-      spec:
-        remediationAction: inform
-        severity: high
-        object-templates:
-          - complianceType: musthave
-            objectDefinition:
-              apiVersion: v1
-              kind: Namespace
-              metadata:
-                name: openshift-gatekeeper-operator
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: ConfigurationPolicy
-      metadata:
-        name: gatekeeper-operator-catalog-source
-      spec:
-        remediationAction: inform
-        severity: high
-        object-templates:
-          - complianceType: musthave
-            objectDefinition:
-              apiVersion: operators.coreos.com/v1alpha1
-              kind: CatalogSource
-              metadata:
-                name: gatekeeper-operator
-                namespace: openshift-gatekeeper-operator
-              spec:
-                displayName: Gatekeeper Operator Upstream
-                publisher: github.com/font/gatekeeper-operator
-                sourceType: grpc
-                image: 'quay.io/gatekeeper/gatekeeper-operator-bundle-index:latest'
-                updateStrategy:
-                  registryPoll:
-                    interval: 45m
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: ConfigurationPolicy
-      metadata:
-        name: gatekeeper-operator-group
-      spec:
-        remediationAction: inform
-        severity: high
-        object-templates:
-          - complianceType: musthave
-            objectDefinition:
-              apiVersion: operators.coreos.com/v1
-              kind: OperatorGroup
-              metadata:
-                name: gatekeeper-operator
-                namespace: openshift-gatekeeper-operator
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: ConfigurationPolicy
-      metadata:
-        name: gatekeeper-operator-subscription
-      spec:
-        remediationAction: inform
-        severity: high
-        object-templates:
-          - complianceType: musthave
-            objectDefinition:
-              apiVersion: operators.coreos.com/v1alpha1
-              kind: Subscription
-              metadata:
-                name: gatekeeper-operator-sub
-                namespace: openshift-gatekeeper-operator
-              spec:
-                channel: stable
-                name: gatekeeper-operator
-                source: gatekeeper-operator
-                sourceNamespace: openshift-gatekeeper-operator
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: ConfigurationPolicy
-      metadata:
-        name: gatekeeper
-      spec:
-        remediationAction: inform
-        severity: high
-        object-templates:
-          - complianceType: musthave
-            objectDefinition:
-              apiVersion: operator.gatekeeper.sh/v1alpha1
-              kind: Gatekeeper
-              metadata:
-                name: gatekeeper
-              spec:
-                audit:
-                  logLevel: INFO
-                  replicas: 1
-                image:
-                  image: 'docker.io/openpolicyagent/gatekeeper:v3.3.0'
-                validatingWebhook: Enabled
-                mutatingWebhook: Disabled
-                webhook:
-                  emitAdmissionEvents: Enabled
-                  logLevel: INFO
-                  replicas: 2
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: ConfigurationPolicy
+        metadata:
+          name: gatekeeper-operator-ns
+        spec:
+          remediationAction: inform
+          severity: high
+          object-templates:
+            - complianceType: musthave
+              objectDefinition:
+                apiVersion: v1
+                kind: Namespace
+                metadata:
+                  name: openshift-gatekeeper-operator
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: ConfigurationPolicy
+        metadata:
+          name: gatekeeper-operator-catalog-source
+        spec:
+          remediationAction: inform
+          severity: high
+          object-templates:
+            - complianceType: musthave
+              objectDefinition:
+                apiVersion: operators.coreos.com/v1alpha1
+                kind: CatalogSource
+                metadata:
+                  name: gatekeeper-operator
+                  namespace: openshift-gatekeeper-operator
+                spec:
+                  displayName: Gatekeeper Operator Upstream
+                  publisher: github.com/font/gatekeeper-operator
+                  sourceType: grpc
+                  image: 'quay.io/gatekeeper/gatekeeper-operator-bundle-index:latest'
+                  updateStrategy:
+                    registryPoll:
+                      interval: 45m
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: ConfigurationPolicy
+        metadata:
+          name: gatekeeper-operator-group
+        spec:
+          remediationAction: inform
+          severity: high
+          object-templates:
+            - complianceType: musthave
+              objectDefinition:
+                apiVersion: operators.coreos.com/v1
+                kind: OperatorGroup
+                metadata:
+                  name: gatekeeper-operator
+                  namespace: openshift-gatekeeper-operator
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: ConfigurationPolicy
+        metadata:
+          name: gatekeeper-operator-subscription
+        spec:
+          remediationAction: inform
+          severity: high
+          object-templates:
+            - complianceType: musthave
+              objectDefinition:
+                apiVersion: operators.coreos.com/v1alpha1
+                kind: Subscription
+                metadata:
+                  name: gatekeeper-operator-sub
+                  namespace: openshift-gatekeeper-operator
+                spec:
+                  channel: stable
+                  name: gatekeeper-operator
+                  source: gatekeeper-operator
+                  sourceNamespace: openshift-gatekeeper-operator
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: ConfigurationPolicy
+        metadata:
+          name: gatekeeper
+        spec:
+          remediationAction: inform
+          severity: high
+          object-templates:
+            - complianceType: musthave
+              objectDefinition:
+                apiVersion: operator.gatekeeper.sh/v1alpha1
+                kind: Gatekeeper
+                metadata:
+                  name: gatekeeper
+                spec:
+                  audit:
+                    logLevel: INFO
+                    replicas: 1
+                  image:
+                    image: 'docker.io/openpolicyagent/gatekeeper:v3.3.0'
+                  validatingWebhook: Enabled
+                  mutatingWebhook: Disabled
+                  webhook:
+                    emitAdmissionEvents: Enabled
+                    logLevel: INFO
+                    replicas: 2
 ---
 apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding
 metadata:
   name: binding-policy-gatekeeper-operator
+  annotations:
+    integrityshield.io/message: H4sIAAAAAAAAA91YUW/TMBB+z6+w9sIL7gYDCeVtbGOaxAqiAx4QD25yTUwT29hOoEL8dy5OnDWbm7aahLT6Zat9Pt999935Yqb4F9CGSxETJQuerCZSgaBJURkLmpZMsAxKEHbC5XH9IlpykcbkoxONSrAsZZbFESGCleB10IxZWAIo1IDqNLNSowgTQlpm8TDT7CA7nGgsEynTqYnJ9Hp2S2YfyZuTE/r6dMf9CRqSSc0BFZzfkHMpFjyrtDOC3PSiu2qTwmpZOF30JXnLDBRcwFBtZBQkjX8a96XczZ0l1kHMxULqEtdSbti8AIRywQoDkT+dWihVgUZ3CFEi5z8gsRew4II7JW6+GWzf2PmNbQwHRncB9RLrgfWjDXAgslSYXsz77scYBv0eqEFzu4pJzrN8baF1/T4kflCSSFzgTCRwu1JoW4l+56yGgRgZQTCE5BpOQ7ym6L9RLLmvPozWELUmLibnC7shM55IoDGbWCEzamSl13B4+kH3HppJIjXI5k+JQLJC5WwTH85bMGZDLMaA3QrwBlnHul1ItD7uB8UPrDwI7GrqbLjqFZEPnSLyWRmrgZWBvaqaF9zkoNF6bvNq7nBaYFU83s2bljht4DKtkoAIL5HLMXn2s2Krhs53ikNn0Hkl0gIoRgR+x44w9llAa6UwGDCzurkPViFcGtpmHF1fYYoUYQm0TmDC1ayIyavX5dNJ3EzLSh1+vm7IVE/tqwEKY0huRfSxmfokWGOquUk0V66r8eIHS57RYj8LQTGG6k7o/o96n+TYdgMWLGylseN8JMnbAr6f9PRAEuMAU2By593E5NuS4OohFGP4bcVxE569xVXKbfgmxsbrPSKKtL6evvuw4TpH3BKGH2sP/fFtRnCj70BSmSwRF6RSw7KWcLgyaHbi+nRyOjkJtRzYJXCEhIvsK8xzKZcxuRTuoy8gXFZ2KHrRfSAGZH91MkHjoeT2LC25aQJ9WaO1ZuzcPZF8GVFKo73zsHs0KLAGNLNv8Sf6Gng+mLcrdOQZQXktn2Cx9u7gZ8e2eh73hnyqXEFEf1xrEON/yoz4EmHNbtLMJSnd5cmjP/Ku3NydthW7B2hvsS+AtXMx8E6zC14+L7uzsH6mfO31hjZXiq2QFke3uoKjjjvWlan2bSU9v7f1rGa86O6hTu0MCoRU6lZpyWySX/5WGhyD+3JIyZ8lYPUEUXMtRWP6876MIXfF8ybhquad59tRCvXR97/RP5xMSm7dEgAA
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSEZCQUFCQ2dBdkZpRUVkZENIUWpWblNBUmhaMytYbTBOT3crQXJsb2NGQW1CSzJUWVJIR2RoYW1GdVFHcHcKTG1saWJTNWpiMjBBQ2drUW0wTk93K0FybG9jbWRBditPa3JwY1ppbDVDSWdQT09BQThNL2tNektBcGdIdmViUwphMFI0T01wdTJBaGdqZktxSlQ5OW5jMmtmQTdOdHlmM21Rb3NzaDJjcStHM3FHU1J2bmszb2kwQnFBQWk4Mi9tCit0V3hSd1JMWHhkR015QTVvTm9hYTE1RlpOZEZ2RnVtR0tEcjQ2Z01DTExMZWxkZFRDb2pXMjhxbFRNbkJXRDkKTkFiOWM1Tmgvbm5IVSt4aitPcmpmWk1jQzhNMEgyVHRYTWVHbWR6d1NpeDBCc05aaDJ4RVZTeUl5dGR1dEwvbQpZVDVXdE1OY1Rmc2ZBUUZ5Z2oxWmlHVWJxNXZxMEV2a0xjK010aXJVd2xVVGZwTitiU1RUcllKWXc1UnFCajUvCjV4ZENZYmZtM2dGSFRnNnRiZytrTmM0SW9ZMWwxeDV1UHplZWJEZEkrZkFYRGJia01Jc1I2NC9OalpzSTAxR3cKMW5iWjd1cm12alNPWEJwTmVRVG9TT0VEN3czNWYzeWJqQkFtWldPWEtPZTBqQUFRRTFCTVdaQWxYQkExMlhTeApjeDFuNTIyVmJsSUtxandBM081Q1RMTVU4UWF2eWdBNUVlc1g1VDd5enY3Yy9CMmgzUml4S0V3NU1GaE02WmtaCmRRbk5NNmtMR2lYc1dEQ0Eza3p5STBJL2lGcW56b1RsCj1NZjIvCi0tLS0tRU5EIFBHUCBTSUdOQVRVUkUtLS0tLQo=
 placementRef:
   name: placement-policy-gatekeeper-operator
   kind: PlacementRule
   apiGroup: apps.open-cluster-management.io
 subjects:
-- name: policy-gatekeeper-operator
-  kind: Policy
-  apiGroup: policy.open-cluster-management.io
+  - name: policy-gatekeeper-operator
+    kind: Policy
+    apiGroup: policy.open-cluster-management.io
 ---
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
   name: placement-policy-gatekeeper-operator
+  annotations:
+    integrityshield.io/message: H4sIAAAAAAAAA91YUW/TMBB+z6+w9sIL7gYDCeVtbGOaxAqiAx4QD25yTUwT29hOoEL8dy5OnDWbm7aahLT6Zat9Pt999935Yqb4F9CGSxETJQuerCZSgaBJURkLmpZMsAxKEHbC5XH9IlpykcbkoxONSrAsZZbFESGCleB10IxZWAIo1IDqNLNSowgTQlpm8TDT7CA7nGgsEynTqYnJ9Hp2S2YfyZuTE/r6dMf9CRqSSc0BFZzfkHMpFjyrtDOC3PSiu2qTwmpZOF30JXnLDBRcwFBtZBQkjX8a96XczZ0l1kHMxULqEtdSbti8AIRywQoDkT+dWihVgUZ3CFEi5z8gsRew4II7JW6+GWzf2PmNbQwHRncB9RLrgfWjDXAgslSYXsz77scYBv0eqEFzu4pJzrN8baF1/T4kflCSSFzgTCRwu1JoW4l+56yGgRgZQTCE5BpOQ7ym6L9RLLmvPozWELUmLibnC7shM55IoDGbWCEzamSl13B4+kH3HppJIjXI5k+JQLJC5WwTH85bMGZDLMaA3QrwBlnHul1ItD7uB8UPrDwI7GrqbLjqFZEPnSLyWRmrgZWBvaqaF9zkoNF6bvNq7nBaYFU83s2bljht4DKtkoAIL5HLMXn2s2Krhs53ikNn0Hkl0gIoRgR+x44w9llAa6UwGDCzurkPViFcGtpmHF1fYYoUYQm0TmDC1ayIyavX5dNJ3EzLSh1+vm7IVE/tqwEKY0huRfSxmfokWGOquUk0V66r8eIHS57RYj8LQTGG6k7o/o96n+TYdgMWLGylseN8JMnbAr6f9PRAEuMAU2By593E5NuS4OohFGP4bcVxE569xVXKbfgmxsbrPSKKtL6evvuw4TpH3BKGH2sP/fFtRnCj70BSmSwRF6RSw7KWcLgyaHbi+nRyOjkJtRzYJXCEhIvsK8xzKZcxuRTuoy8gXFZ2KHrRfSAGZH91MkHjoeT2LC25aQJ9WaO1ZuzcPZF8GVFKo73zsHs0KLAGNLNv8Sf6Gng+mLcrdOQZQXktn2Cx9u7gZ8e2eh73hnyqXEFEf1xrEON/yoz4EmHNbtLMJSnd5cmjP/Ku3NydthW7B2hvsS+AtXMx8E6zC14+L7uzsH6mfO31hjZXiq2QFke3uoKjjjvWlan2bSU9v7f1rGa86O6hTu0MCoRU6lZpyWySX/5WGhyD+3JIyZ8lYPUEUXMtRWP6876MIXfF8ybhquad59tRCvXR97/RP5xMSm7dEgAA
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSEZCQUFCQ2dBdkZpRUVkZENIUWpWblNBUmhaMytYbTBOT3crQXJsb2NGQW1CSzJUWVJIR2RoYW1GdVFHcHcKTG1saWJTNWpiMjBBQ2drUW0wTk93K0FybG9jbWRBditPa3JwY1ppbDVDSWdQT09BQThNL2tNektBcGdIdmViUwphMFI0T01wdTJBaGdqZktxSlQ5OW5jMmtmQTdOdHlmM21Rb3NzaDJjcStHM3FHU1J2bmszb2kwQnFBQWk4Mi9tCit0V3hSd1JMWHhkR015QTVvTm9hYTE1RlpOZEZ2RnVtR0tEcjQ2Z01DTExMZWxkZFRDb2pXMjhxbFRNbkJXRDkKTkFiOWM1Tmgvbm5IVSt4aitPcmpmWk1jQzhNMEgyVHRYTWVHbWR6d1NpeDBCc05aaDJ4RVZTeUl5dGR1dEwvbQpZVDVXdE1OY1Rmc2ZBUUZ5Z2oxWmlHVWJxNXZxMEV2a0xjK010aXJVd2xVVGZwTitiU1RUcllKWXc1UnFCajUvCjV4ZENZYmZtM2dGSFRnNnRiZytrTmM0SW9ZMWwxeDV1UHplZWJEZEkrZkFYRGJia01Jc1I2NC9OalpzSTAxR3cKMW5iWjd1cm12alNPWEJwTmVRVG9TT0VEN3czNWYzeWJqQkFtWldPWEtPZTBqQUFRRTFCTVdaQWxYQkExMlhTeApjeDFuNTIyVmJsSUtxandBM081Q1RMTVU4UWF2eWdBNUVlc1g1VDd5enY3Yy9CMmgzUml4S0V3NU1GaE02WmtaCmRRbk5NNmtMR2lYc1dEQ0Eza3p5STBJL2lGcW56b1RsCj1NZjIvCi0tLS0tRU5EIFBHUCBTSUdOQVRVUkUtLS0tLQo=
 spec:
   clusterConditions:
-  - status: "True"
-    type: ManagedClusterConditionAvailable
+    - status: "True"
+      type: ManagedClusterConditionAvailable
   clusterSelector:
     matchExpressions:
       - {key: environment, operator: In, values: ["dev"]}

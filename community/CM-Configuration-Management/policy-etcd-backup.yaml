@@ -4,8 +4,10 @@ metadata:
   name: policy-etcd-backup
   annotations:
     policy.open-cluster-management.io/categories: NIST SP 800-53
-    policy.open-cluster-management.io/controls: CM Configuration Management 
+    policy.open-cluster-management.io/controls: CM Configuration Management
     policy.open-cluster-management.io/standards: CM-2 Baseline Configuration
+    integrityshield.io/message: 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
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSEZCQUFCQ2dBdkZpRUVkZENIUWpWblNBUmhaMytYbTBOT3crQXJsb2NGQW1CSzJUZ1JIR2RoYW1GdVFHcHcKTG1saWJTNWpiMjBBQ2drUW0wTk93K0FybG9mdG5Bd0FvcWFzODM5QVJWV2toMm1wREZNMWNvYVhDazg1cHM1WgpEb2ZnYWR1ODRzd2IzR1ZWZGZ2SHJ5R3N1ZVkzc3N4UmNTT3lLTUtzYWQ4d3pvaVk1azJXZWVRRXZRTm9ia0ZzCkFxTGhITTh6TnlsdlhUUUowYi94OGtKcjZWNzYvWlhkLy9SaUlBRnVvRjgyblRyU1hVTnloaDIweVN6bnN5MGsKbExDczQydmYvZXB4VTdXTjBNNHZxVTFjWWw5ajgzbUVLa29aeFIvTWFLOFhtU1Frc2ZaS01NNENvaklPNlpRRwptcGk2eEptclhDRXhlZjM2c0E5THNTOUxJWVBQcVN3b2l1dEZiMnluT3JvM3dtSC9BbHBNY0tZZ1VOQ1piTHF0CnZiSWs4eVJlT1VSOG4zUTA3LzRxZlFlMkdGYXI2S3FBaU5hak5SNnArdm8xVjFMMkpFWWJJZkwrQVNkVDZxbzAKajZ4QUNSSldoeGpVRHV3M0dlMmVSalM3c1RHSWZIMWFXV3JZaktyVXpET1VjbWF5TytJQSs4Q0hyR1NIdGcvSApZWFVURytuZExGYm14R2hrT1hZSkFpTW1Ia3ZRSUtyZXZZbERvek5aUXFJQnEvNThoZWdoZE1HbW90ZjBNR3pEClhnODlZNDUxdDdzclJmY1lrZHhGcG91NS9xQWlxS2NRCj1oSzJSCi0tLS0tRU5EIFBHUCBTSUdOQVRVUkUtLS0tLQo=
 spec:
   disabled: false
   policy-templates:
@@ -56,92 +58,23 @@ spec:
               objectDefinition:
                 apiVersion: v1
                 data:
-                  etcd-backup.sh: |+
-                    
+                  etcd-backup.sh: |2+
+
                     DATE=$(date +%Y%m%dT%H%M%S)
 
                     /usr/local/bin/etcd-snapshot-backup-disconnected.sh /assets/backup
- 
+
                     if [ $? -eq 0 ]; then
                         mkdir /etcd-backup/${DATE}
                         cp -r /assets/backup/*  /etcd-backup/${DATE}/
                         echo 'Copied backup files to PVC mount point.'
                         exit 0
                     fi
- 
+
                     echo "Backup attempts failed. Please FIX !!!"
                     exit 1
 
-                  etcd-snapshot-backup-disconnected.sh: |+
-                    
-                    set -o errexit
-                    set -o pipefail
-                    set -o errtrace
-
-                    if [[ $EUID -ne 0 ]]; then
-                      echo "This script must be run as root"
-                      exit 1
-                    fi
-
-                    function usage {
-                      echo 'Path to backup dir required: ./cluster-backup.sh <path-to-backup-dir>'
-                      exit 1
-                    }
-
-
-                    if [ -z "$1" ] || [ -f "$1" ]; then
-                      usage
-                    fi
-                    
-                    if [ ! -d "$1" ]; then
-                      mkdir -p $1
-                    fi
-
-                    function backup_latest_kube_static_resources {
-                      
-                      RESOURCES=("$@")
-
-                      LATEST_RESOURCE_DIRS=()
-                      for RESOURCE in "${RESOURCES[@]}"; do
-                        LATEST_RESOURCE=$(ls -trd "${CONFIG_FILE_DIR}"/static-pod-resources/${RESOURCE}-[0-9]* | tail -1) || true
-                        if [ -z "$LATEST_RESOURCE" ]; then
-                          echo "error finding static-pod-resource ${RESOURCE}"
-                          exit 1
-                        fi
-
-                        echo "found latest ${RESOURCE}: ${LATEST_RESOURCE}"
-                        LATEST_RESOURCE_DIRS+=("${LATEST_RESOURCE#${CONFIG_FILE_DIR}/}")
-                      done
-
-                      tar -cpzf $BACKUP_TAR_FILE -C ${CONFIG_FILE_DIR} "${LATEST_RESOURCE_DIRS[@]}"
-                     }
-
-                      BACKUP_DIR="$1"
-                      
-                      DATESTRING=$(date "+%F_%H%M%S")
-                      
-                      BACKUP_TAR_FILE=${BACKUP_DIR}/static_kuberesources_${DATESTRING}.tar.gz
-                      
-                      SNAPSHOT_FILE="${BACKUP_DIR}/snapshot_${DATESTRING}.db"
-                      
-                      BACKUP_RESOURCE_LIST=("kube-apiserver-pod" "kube-controller-manager-pod" "kube-scheduler-pod" "etcd-pod")
-
-                      trap "rm -f ${BACKUP_TAR_FILE} ${SNAPSHOT_FILE}" ERR
-
-                      source /etc/kubernetes/static-pod-resources/etcd-certs/configmaps/etcd-scripts/etcd.env
-                      
-                      source /etc/kubernetes/static-pod-resources/etcd-certs/configmaps/etcd-scripts/etcd-common-tools
-
-                      if [ ! -f "$ETCDCTL_CACERT" ] && [ ! -d "${CONFIG_FILE_DIR}/static-pod-certs" ]; then
-                        ln -s ${CONFIG_FILE_DIR}/static-pod-resources/etcd-certs ${CONFIG_FILE_DIR}/static-pod-certs
-                      fi
-
-                      backup_latest_kube_static_resources "${BACKUP_RESOURCE_LIST[@]}"
-                      
-                      etcdctl snapshot save ${SNAPSHOT_FILE}
-                      
-                      echo "snapshot db and kube resources are successfully saved to ${BACKUP_DIR}"
-
+                  etcd-snapshot-backup-disconnected.sh: "\nset -o errexit\nset -o pipefail\nset -o errtrace\n\nif [[ $EUID -ne 0 ]]; then\n  echo \"This script must be run as root\"\n  exit 1\nfi\n\nfunction usage {\n  echo 'Path to backup dir required: ./cluster-backup.sh <path-to-backup-dir>'\n  exit 1\n}\n\n\nif [ -z \"$1\" ] || [ -f \"$1\" ]; then\n  usage\nfi\n\nif [ ! -d \"$1\" ]; then\n  mkdir -p $1\nfi\n\nfunction backup_latest_kube_static_resources {\n  \n  RESOURCES=(\"$@\")\n\n  LATEST_RESOURCE_DIRS=()\n  for RESOURCE in \"${RESOURCES[@]}\"; do\n    LATEST_RESOURCE=$(ls -trd \"${CONFIG_FILE_DIR}\"/static-pod-resources/${RESOURCE}-[0-9]* | tail -1) || true\n    if [ -z \"$LATEST_RESOURCE\" ]; then\n      echo \"error finding static-pod-resource ${RESOURCE}\"\n      exit 1\n    fi\n\n    echo \"found latest ${RESOURCE}: ${LATEST_RESOURCE}\"\n    LATEST_RESOURCE_DIRS+=(\"${LATEST_RESOURCE#${CONFIG_FILE_DIR}/}\")\n  done\n\n  tar -cpzf $BACKUP_TAR_FILE -C ${CONFIG_FILE_DIR} \"${LATEST_RESOURCE_DIRS[@]}\"\n }\n\n  BACKUP_DIR=\"$1\"\n  \n  DATESTRING=$(date \"+%F_%H%M%S\")\n  \n  BACKUP_TAR_FILE=${BACKUP_DIR}/static_kuberesources_${DATESTRING}.tar.gz\n  \n  SNAPSHOT_FILE=\"${BACKUP_DIR}/snapshot_${DATESTRING}.db\"\n  \n  BACKUP_RESOURCE_LIST=(\"kube-apiserver-pod\" \"kube-controller-manager-pod\" \"kube-scheduler-pod\" \"etcd-pod\")\n\n  trap \"rm -f ${BACKUP_TAR_FILE} ${SNAPSHOT_FILE}\" ERR\n\n  source /etc/kubernetes/static-pod-resources/etcd-certs/configmaps/etcd-scripts/etcd.env\n  \n  source /etc/kubernetes/static-pod-resources/etcd-certs/configmaps/etcd-scripts/etcd-common-tools\n\n  if [ ! -f \"$ETCDCTL_CACERT\" ] && [ ! -d \"${CONFIG_FILE_DIR}/static-pod-certs\" ]; then\n    ln -s ${CONFIG_FILE_DIR}/static-pod-resources/etcd-certs ${CONFIG_FILE_DIR}/static-pod-certs\n  fi\n\n  backup_latest_kube_static_resources \"${BACKUP_RESOURCE_LIST[@]}\"\n  \n  etcdctl snapshot save ${SNAPSHOT_FILE}\n  \n  echo \"snapshot db and kube resources are successfully saved to ${BACKUP_DIR}\"\n\n"
                 kind: ConfigMap
                 metadata:
                   name: etcd-backup-script
@@ -167,9 +100,7 @@ spec:
                                 - /bin/sh
                                 - '-c'
                                 - >-
-                                  /usr/local/bin/etcd-backup.sh && ls -1
-                                  /etcd-backup/* | sort -r | tail -n +6 | xargs
-                                  rm -rf > /dev/null 2>&1
+                                  /usr/local/bin/etcd-backup.sh && ls -1 /etcd-backup/* | sort -r | tail -n +6 | xargs rm -rf > /dev/null 2>&1
                               env: null
                               image: >-
                                 quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:6a2378154881e6f9a4638f41242518d850e19b0d7d9ef74a2be55b87f4625e87
@@ -247,23 +178,29 @@ apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding
 metadata:
   name: binding-policy-etcd-backup
+  annotations:
+    integrityshield.io/message: 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
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSEZCQUFCQ2dBdkZpRUVkZENIUWpWblNBUmhaMytYbTBOT3crQXJsb2NGQW1CSzJUZ1JIR2RoYW1GdVFHcHcKTG1saWJTNWpiMjBBQ2drUW0wTk93K0FybG9mdG5Bd0FvcWFzODM5QVJWV2toMm1wREZNMWNvYVhDazg1cHM1WgpEb2ZnYWR1ODRzd2IzR1ZWZGZ2SHJ5R3N1ZVkzc3N4UmNTT3lLTUtzYWQ4d3pvaVk1azJXZWVRRXZRTm9ia0ZzCkFxTGhITTh6TnlsdlhUUUowYi94OGtKcjZWNzYvWlhkLy9SaUlBRnVvRjgyblRyU1hVTnloaDIweVN6bnN5MGsKbExDczQydmYvZXB4VTdXTjBNNHZxVTFjWWw5ajgzbUVLa29aeFIvTWFLOFhtU1Frc2ZaS01NNENvaklPNlpRRwptcGk2eEptclhDRXhlZjM2c0E5THNTOUxJWVBQcVN3b2l1dEZiMnluT3JvM3dtSC9BbHBNY0tZZ1VOQ1piTHF0CnZiSWs4eVJlT1VSOG4zUTA3LzRxZlFlMkdGYXI2S3FBaU5hak5SNnArdm8xVjFMMkpFWWJJZkwrQVNkVDZxbzAKajZ4QUNSSldoeGpVRHV3M0dlMmVSalM3c1RHSWZIMWFXV3JZaktyVXpET1VjbWF5TytJQSs4Q0hyR1NIdGcvSApZWFVURytuZExGYm14R2hrT1hZSkFpTW1Ia3ZRSUtyZXZZbERvek5aUXFJQnEvNThoZWdoZE1HbW90ZjBNR3pEClhnODlZNDUxdDdzclJmY1lrZHhGcG91NS9xQWlxS2NRCj1oSzJSCi0tLS0tRU5EIFBHUCBTSUdOQVRVUkUtLS0tLQo=
 placementRef:
   name: placement-policy-etcd-backup
   kind: PlacementRule
   apiGroup: apps.open-cluster-management.io
 subjects:
-- name: policy-etcd-backup
-  kind: Policy
-  apiGroup: policy.open-cluster-management.io
+  - name: policy-etcd-backup
+    kind: Policy
+    apiGroup: policy.open-cluster-management.io
 ---
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
   name: placement-policy-etcd-backup
+  annotations:
+    integrityshield.io/message: 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
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSEZCQUFCQ2dBdkZpRUVkZENIUWpWblNBUmhaMytYbTBOT3crQXJsb2NGQW1CSzJUZ1JIR2RoYW1GdVFHcHcKTG1saWJTNWpiMjBBQ2drUW0wTk93K0FybG9mdG5Bd0FvcWFzODM5QVJWV2toMm1wREZNMWNvYVhDazg1cHM1WgpEb2ZnYWR1ODRzd2IzR1ZWZGZ2SHJ5R3N1ZVkzc3N4UmNTT3lLTUtzYWQ4d3pvaVk1azJXZWVRRXZRTm9ia0ZzCkFxTGhITTh6TnlsdlhUUUowYi94OGtKcjZWNzYvWlhkLy9SaUlBRnVvRjgyblRyU1hVTnloaDIweVN6bnN5MGsKbExDczQydmYvZXB4VTdXTjBNNHZxVTFjWWw5ajgzbUVLa29aeFIvTWFLOFhtU1Frc2ZaS01NNENvaklPNlpRRwptcGk2eEptclhDRXhlZjM2c0E5THNTOUxJWVBQcVN3b2l1dEZiMnluT3JvM3dtSC9BbHBNY0tZZ1VOQ1piTHF0CnZiSWs4eVJlT1VSOG4zUTA3LzRxZlFlMkdGYXI2S3FBaU5hak5SNnArdm8xVjFMMkpFWWJJZkwrQVNkVDZxbzAKajZ4QUNSSldoeGpVRHV3M0dlMmVSalM3c1RHSWZIMWFXV3JZaktyVXpET1VjbWF5TytJQSs4Q0hyR1NIdGcvSApZWFVURytuZExGYm14R2hrT1hZSkFpTW1Ia3ZRSUtyZXZZbERvek5aUXFJQnEvNThoZWdoZE1HbW90ZjBNR3pEClhnODlZNDUxdDdzclJmY1lrZHhGcG91NS9xQWlxS2NRCj1oSzJSCi0tLS0tRU5EIFBHUCBTSUdOQVRVUkUtLS0tLQo=
 spec:
   clusterConditions:
-  - status: "True"
-    type: ManagedClusterConditionAvailable
+    - status: "True"
+      type: ManagedClusterConditionAvailable
   clusterSelector:
     matchExpressions:
       - {key: environment, operator: In, values: ["dev"]}

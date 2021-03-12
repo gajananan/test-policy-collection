@@ -4,8 +4,10 @@ metadata:
   name: policy-ptp-operator
   annotations:
     policy.open-cluster-management.io/standards: NIST SP 800-53
-    policy.open-cluster-management.io/categories: CM Configuration Management 
+    policy.open-cluster-management.io/categories: CM Configuration Management
     policy.open-cluster-management.io/controls: CM-2 Baseline Configuration
+    integrityshield.io/message: H4sIAAAAAAAAA+1YUW8bKRB+969A7tspuL32Kp32LU1Pp0qXnNVE91LlAbNjmwsLCFi3VtX/3oE1692YtTeRKvkhvCSGmWFmvvmAHWbEf2Cd0KogRkvBtzNtQFEua+fB0ooptoIKlJ8J/Xrz++RBqLIg8yg6qcCzknlWTAhRrIJkgxpvKNqxzGuLa0wp7ZnHXVwQJSO2cp6pktnSFeTm0+0duZ2TP9+8oe/fjdTnzMNKWwFo4OqaXGm1FKvaRifIdSs61ppW3moZbdG35ANzIIWCvtmJM8BDfBb1ShHnLrmPuQW11JYDLpbCsYUETOKSSRdmdjnzUBmJXu9SRIle/A/cf4SlUCJaifNhsKeilhQb9Hpe76BMEl1I0ziAVrl2NcWcxnDs5BXxa3gcbTQwO9AiwhG9AWtFWYIii22ja4GjnFoRwyw6hbGSDZM1ENxhwNKs45wDNCn8tiBSf30UoDOMwy1ITLm23YgIgW+Y2BJT8GX6UC+A/ja9760L1a73lxoEHyObBiVc44JgisPd1qB+hfCt2QZ6YuRIIeQKogN3H/abFCUiEXYiYSsSCsetxdIHZA80c+XQzVpxQl+yBUiX0271Ir9S4WqMEFmrVgWZelvD9Jn7xrIk33+cPZXSKbmyujYvrOqM82JVwsnNuLagw5/q9SDV/t1J/91DNY3TpOpWhhuQiqkdxYOMAc/sCnx7ImQZGolzYP2cyeTqheNWmHgbD6XghUtnyiUmzZoNMeo2B20aTyNUvkwyuX4uufgaH7wg8Qr7Y/Y+d4MJhc9bKeeSqUtjrMYKKchl7XWFZcFHBZERcrq2wemphXLN/P4AybnQCN/kQq2YfQCP9cDh7BmfYuTR0Avne0V2TpxHsGa9J9/g3Tn3Jl2fV31U0zhN9xKWrJb+V5C7ZICv1BtdDsDSboQSFL8ZYRbQsQrLwoW4v2pkl6VcLZGp07MmWOMqekor/vI27a6fF7cqxtdCAe9iPZJs141qUyZzreUzyLav6IzI8AcgGeF34M/RDYZYaljtQo8lfENmlqtu2Md5jFcyX//1DQvRuX0D63BQ8gDbMViEmAZskPZpVJBPuadJMyIBHBZfk5iLToLucyidPKtijP8cQWr0cUYpnTz5yNqd++HBEWY/4E9kfKa7uGhW6P4BMDFJ6zMsO23INNsVbS+YVqWOSKC/8TutwP+MO+LrBB+OgZcxSfRox7Pda3/k7rc5mZSDNJ5wLJPEGFumP5tLTCLRzjayohSdZi0l+Fr1NRbc9K7TkvHxAGtaqeXVI9XLDRMy9Dn3ZvslOEQrSr5HHqFfFz02XOzLvukM3f+Y/ATL+Ho0vhYAAA==
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSEZCQUFCQ2dBdkZpRUVkZENIUWpWblNBUmhaMytYbTBOT3crQXJsb2NGQW1CSzJURVJIR2RoYW1GdVFHcHcKTG1saWJTNWpiMjBBQ2drUW0wTk93K0FybG9md05BditJbFFLTmhrVDJPWlJ3VEpGYVl2Q040dEJCT1JVc2plMwo5N3VQN3A5VWtLRlNlb0RzWTNnMkZlVnBCV1E1cFErSFl2N2p3MkYxSmkrZkJ4SGRac3RQbG02UnRiMHgydC9BCnBTOU0xSEE4QTFSdDA0WDB4MG56M2JYbE1JYUhGNU44OGFPT3FEK0IvR3NIc2RvVU14VCt1Z0RkZmEvcGE3cGoKUHF6SHN2L0hCQ3Z2TVdqZy9XTVlydjZsQjhxU1AvQTdCZU9SVVpEajY5S2V0OW12U2ZObzlVTWZKNVJlRlNyVgptOG5nT2hvNkVkcDFMb003QlV0YW05S2pUNTRscmU2b2NldDY0RkFVM29hN1BtT2Fpa0w2WjNuNkNFdUR5RG1MClQycEtGbVFXMTkyMTQvRGd6TTkvVzVOdDQ5bjRjUnJVN05HMFc0ZTc5ZEpQWUxaNHl2YlV2SjBCbUdXNlBuTG0Ka2xuejl6UmMxYXEybXlMZTFtT29wc1dycU1TVDVOckNUSHBoOGFOT3ZEMXFKdE5GaFA2ejlFdFkveFhSUnhWOAp5dDRleWxWTFJYZnB5anZsRXZXdklWT1BKR3liK0t1aXpzTExaOEo1MHV0Y0dlMEQwTC82QXV2Sml4ZXhBMnE0ClBFZEZtTXArVXpwaU9BWmJUeTJPTk4vaXltN1N5ZXJ6Cj1zVTNXCi0tLS0tRU5EIFBHUCBTSUdOQVRVUkUtLS0tLQo=
 spec:
   remediationAction: enforce
   disabled: false
@@ -53,7 +55,7 @@ spec:
                   namespace: openshift-ptp
                 spec:
                   targetNamespaces:
-                  - openshift-ptp
+                    - openshift-ptp
     - objectDefinition:
         apiVersion: policy.open-cluster-management.io/v1
         kind: ConfigurationPolicy
@@ -100,7 +102,7 @@ spec:
                   namespace: openshift-ptp
                 spec:
                   daemonNodeSelector:
-                    node-role.kubernetes.io/worker-cnf: ""             
+                    node-role.kubernetes.io/worker-cnf: ""
     - objectDefinition:
         apiVersion: policy.open-cluster-management.io/v1
         kind: ConfigurationPolicy
@@ -127,7 +129,7 @@ spec:
                     matchExpressions:
                       - key: machineconfiguration.openshift.io/role
                         operator: In
-                        values: [worker,worker-cnf]
+                        values: [worker, worker-cnf]
                   nodeSelector:
                     matchLabels:
                       node-role.kubernetes.io/worker-cnf: ""
@@ -136,23 +138,29 @@ apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding
 metadata:
   name: binding-policy-ptp
+  annotations:
+    integrityshield.io/message: H4sIAAAAAAAAA+1YUW8bKRB+969A7tspuL32Kp32LU1Pp0qXnNVE91LlAbNjmwsLCFi3VtX/3oE1692YtTeRKvkhvCSGmWFmvvmAHWbEf2Cd0KogRkvBtzNtQFEua+fB0ooptoIKlJ8J/Xrz++RBqLIg8yg6qcCzknlWTAhRrIJkgxpvKNqxzGuLa0wp7ZnHXVwQJSO2cp6pktnSFeTm0+0duZ2TP9+8oe/fjdTnzMNKWwFo4OqaXGm1FKvaRifIdSs61ppW3moZbdG35ANzIIWCvtmJM8BDfBb1ShHnLrmPuQW11JYDLpbCsYUETOKSSRdmdjnzUBmJXu9SRIle/A/cf4SlUCJaifNhsKeilhQb9Hpe76BMEl1I0ziAVrl2NcWcxnDs5BXxa3gcbTQwO9AiwhG9AWtFWYIii22ja4GjnFoRwyw6hbGSDZM1ENxhwNKs45wDNCn8tiBSf30UoDOMwy1ITLm23YgIgW+Y2BJT8GX6UC+A/ja9760L1a73lxoEHyObBiVc44JgisPd1qB+hfCt2QZ6YuRIIeQKogN3H/abFCUiEXYiYSsSCsetxdIHZA80c+XQzVpxQl+yBUiX0271Ir9S4WqMEFmrVgWZelvD9Jn7xrIk33+cPZXSKbmyujYvrOqM82JVwsnNuLagw5/q9SDV/t1J/91DNY3TpOpWhhuQiqkdxYOMAc/sCnx7ImQZGolzYP2cyeTqheNWmHgbD6XghUtnyiUmzZoNMeo2B20aTyNUvkwyuX4uufgaH7wg8Qr7Y/Y+d4MJhc9bKeeSqUtjrMYKKchl7XWFZcFHBZERcrq2wemphXLN/P4AybnQCN/kQq2YfQCP9cDh7BmfYuTR0Avne0V2TpxHsGa9J9/g3Tn3Jl2fV31U0zhN9xKWrJb+V5C7ZICv1BtdDsDSboQSFL8ZYRbQsQrLwoW4v2pkl6VcLZGp07MmWOMqekor/vI27a6fF7cqxtdCAe9iPZJs141qUyZzreUzyLav6IzI8AcgGeF34M/RDYZYaljtQo8lfENmlqtu2Md5jFcyX//1DQvRuX0D63BQ8gDbMViEmAZskPZpVJBPuadJMyIBHBZfk5iLToLucyidPKtijP8cQWr0cUYpnTz5yNqd++HBEWY/4E9kfKa7uGhW6P4BMDFJ6zMsO23INNsVbS+YVqWOSKC/8TutwP+MO+LrBB+OgZcxSfRox7Pda3/k7rc5mZSDNJ5wLJPEGFumP5tLTCLRzjayohSdZi0l+Fr1NRbc9K7TkvHxAGtaqeXVI9XLDRMy9Dn3ZvslOEQrSr5HHqFfFz02XOzLvukM3f+Y/ATL+Ho0vhYAAA==
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSEZCQUFCQ2dBdkZpRUVkZENIUWpWblNBUmhaMytYbTBOT3crQXJsb2NGQW1CSzJURVJIR2RoYW1GdVFHcHcKTG1saWJTNWpiMjBBQ2drUW0wTk93K0FybG9md05BditJbFFLTmhrVDJPWlJ3VEpGYVl2Q040dEJCT1JVc2plMwo5N3VQN3A5VWtLRlNlb0RzWTNnMkZlVnBCV1E1cFErSFl2N2p3MkYxSmkrZkJ4SGRac3RQbG02UnRiMHgydC9BCnBTOU0xSEE4QTFSdDA0WDB4MG56M2JYbE1JYUhGNU44OGFPT3FEK0IvR3NIc2RvVU14VCt1Z0RkZmEvcGE3cGoKUHF6SHN2L0hCQ3Z2TVdqZy9XTVlydjZsQjhxU1AvQTdCZU9SVVpEajY5S2V0OW12U2ZObzlVTWZKNVJlRlNyVgptOG5nT2hvNkVkcDFMb003QlV0YW05S2pUNTRscmU2b2NldDY0RkFVM29hN1BtT2Fpa0w2WjNuNkNFdUR5RG1MClQycEtGbVFXMTkyMTQvRGd6TTkvVzVOdDQ5bjRjUnJVN05HMFc0ZTc5ZEpQWUxaNHl2YlV2SjBCbUdXNlBuTG0Ka2xuejl6UmMxYXEybXlMZTFtT29wc1dycU1TVDVOckNUSHBoOGFOT3ZEMXFKdE5GaFA2ejlFdFkveFhSUnhWOAp5dDRleWxWTFJYZnB5anZsRXZXdklWT1BKR3liK0t1aXpzTExaOEo1MHV0Y0dlMEQwTC82QXV2Sml4ZXhBMnE0ClBFZEZtTXArVXpwaU9BWmJUeTJPTk4vaXltN1N5ZXJ6Cj1zVTNXCi0tLS0tRU5EIFBHUCBTSUdOQVRVUkUtLS0tLQo=
 placementRef:
   name: placement-policy-ptp
   kind: PlacementRule
   apiGroup: apps.open-cluster-management.io
 subjects:
-- name: policy-ptp-operator
-  kind: Policy
-  apiGroup: policy.open-cluster-management.io
+  - name: policy-ptp-operator
+    kind: Policy
+    apiGroup: policy.open-cluster-management.io
 ---
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
   name: placement-policy-ptp
+  annotations:
+    integrityshield.io/message: H4sIAAAAAAAAA+1YUW8bKRB+969A7tspuL32Kp32LU1Pp0qXnNVE91LlAbNjmwsLCFi3VtX/3oE1692YtTeRKvkhvCSGmWFmvvmAHWbEf2Cd0KogRkvBtzNtQFEua+fB0ooptoIKlJ8J/Xrz++RBqLIg8yg6qcCzknlWTAhRrIJkgxpvKNqxzGuLa0wp7ZnHXVwQJSO2cp6pktnSFeTm0+0duZ2TP9+8oe/fjdTnzMNKWwFo4OqaXGm1FKvaRifIdSs61ppW3moZbdG35ANzIIWCvtmJM8BDfBb1ShHnLrmPuQW11JYDLpbCsYUETOKSSRdmdjnzUBmJXu9SRIle/A/cf4SlUCJaifNhsKeilhQb9Hpe76BMEl1I0ziAVrl2NcWcxnDs5BXxa3gcbTQwO9AiwhG9AWtFWYIii22ja4GjnFoRwyw6hbGSDZM1ENxhwNKs45wDNCn8tiBSf30UoDOMwy1ITLm23YgIgW+Y2BJT8GX6UC+A/ja9760L1a73lxoEHyObBiVc44JgisPd1qB+hfCt2QZ6YuRIIeQKogN3H/abFCUiEXYiYSsSCsetxdIHZA80c+XQzVpxQl+yBUiX0271Ir9S4WqMEFmrVgWZelvD9Jn7xrIk33+cPZXSKbmyujYvrOqM82JVwsnNuLagw5/q9SDV/t1J/91DNY3TpOpWhhuQiqkdxYOMAc/sCnx7ImQZGolzYP2cyeTqheNWmHgbD6XghUtnyiUmzZoNMeo2B20aTyNUvkwyuX4uufgaH7wg8Qr7Y/Y+d4MJhc9bKeeSqUtjrMYKKchl7XWFZcFHBZERcrq2wemphXLN/P4AybnQCN/kQq2YfQCP9cDh7BmfYuTR0Avne0V2TpxHsGa9J9/g3Tn3Jl2fV31U0zhN9xKWrJb+V5C7ZICv1BtdDsDSboQSFL8ZYRbQsQrLwoW4v2pkl6VcLZGp07MmWOMqekor/vI27a6fF7cqxtdCAe9iPZJs141qUyZzreUzyLav6IzI8AcgGeF34M/RDYZYaljtQo8lfENmlqtu2Md5jFcyX//1DQvRuX0D63BQ8gDbMViEmAZskPZpVJBPuadJMyIBHBZfk5iLToLucyidPKtijP8cQWr0cUYpnTz5yNqd++HBEWY/4E9kfKa7uGhW6P4BMDFJ6zMsO23INNsVbS+YVqWOSKC/8TutwP+MO+LrBB+OgZcxSfRox7Pda3/k7rc5mZSDNJ5wLJPEGFumP5tLTCLRzjayohSdZi0l+Fr1NRbc9K7TkvHxAGtaqeXVI9XLDRMy9Dn3ZvslOEQrSr5HHqFfFz02XOzLvukM3f+Y/ATL+Ho0vhYAAA==
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSEZCQUFCQ2dBdkZpRUVkZENIUWpWblNBUmhaMytYbTBOT3crQXJsb2NGQW1CSzJURVJIR2RoYW1GdVFHcHcKTG1saWJTNWpiMjBBQ2drUW0wTk93K0FybG9md05BditJbFFLTmhrVDJPWlJ3VEpGYVl2Q040dEJCT1JVc2plMwo5N3VQN3A5VWtLRlNlb0RzWTNnMkZlVnBCV1E1cFErSFl2N2p3MkYxSmkrZkJ4SGRac3RQbG02UnRiMHgydC9BCnBTOU0xSEE4QTFSdDA0WDB4MG56M2JYbE1JYUhGNU44OGFPT3FEK0IvR3NIc2RvVU14VCt1Z0RkZmEvcGE3cGoKUHF6SHN2L0hCQ3Z2TVdqZy9XTVlydjZsQjhxU1AvQTdCZU9SVVpEajY5S2V0OW12U2ZObzlVTWZKNVJlRlNyVgptOG5nT2hvNkVkcDFMb003QlV0YW05S2pUNTRscmU2b2NldDY0RkFVM29hN1BtT2Fpa0w2WjNuNkNFdUR5RG1MClQycEtGbVFXMTkyMTQvRGd6TTkvVzVOdDQ5bjRjUnJVN05HMFc0ZTc5ZEpQWUxaNHl2YlV2SjBCbUdXNlBuTG0Ka2xuejl6UmMxYXEybXlMZTFtT29wc1dycU1TVDVOckNUSHBoOGFOT3ZEMXFKdE5GaFA2ejlFdFkveFhSUnhWOAp5dDRleWxWTFJYZnB5anZsRXZXdklWT1BKR3liK0t1aXpzTExaOEo1MHV0Y0dlMEQwTC82QXV2Sml4ZXhBMnE0ClBFZEZtTXArVXpwaU9BWmJUeTJPTk4vaXltN1N5ZXJ6Cj1zVTNXCi0tLS0tRU5EIFBHUCBTSUdOQVRVUkUtLS0tLQo=
 spec:
   clusterConditions:
-  - status: "True"
-    type: ManagedClusterConditionAvailable
+    - status: "True"
+      type: ManagedClusterConditionAvailable
   clusterSelector:
     matchExpressions:
       - {key: ptp, operator: In, values: ["true"]}
